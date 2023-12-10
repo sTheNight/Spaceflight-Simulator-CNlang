@@ -1,6 +1,6 @@
 #
 # 译者：Mr Logic
-# 汉化包版本：1.5.10.2-3(2023/12/10 18:40)
+# 汉化包版本：1.5.10.2-3(2023/12/10 19:00)
 # 适用版本：1.5.10.2
 # 更新日志：
 #   1.修正翻译
@@ -14,7 +14,7 @@
     
 [None]
     None=None
-    Font=normal
+    Font=normal  #normal / compatibility
 
 [General]
     Cancel=取消
@@ -521,8 +521,8 @@
     Valiant_Engine_Name{1}=英勇发动机
     Titan_Engine_Name{0}=泰坦发动机
     Titan_Engine_Name{1}=泰坦发动机
-    Frontier_Engine_Name{0}=边疆发动机
-    Frontier_Engine_Name{1}=边疆发动机
+    Frontier_Engine_Name{0}=前沿发动机
+    Frontier_Engine_Name{1}=前沿发动机
     Peregrine_Engine_Name{0}=游隼发动机
     Peregrine_Engine_Name{1}=游隼发动机
     Ion_Engine_Name{0}=离子发动机
