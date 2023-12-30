@@ -1,31 +1,9 @@
 #
 # 译者：Mr Logic
-# 汉化包版本：1.5.10.2-3(2023/12/10 19:00)
+# 汉化包版本：1.5.10.2-4(2024/01/01 6:00)
 # 适用版本：1.5.10.2
 # 更新日志：
 #   1.修正翻译
-#
-# MIT License
-# 
-# Copyright (c) 2023 sTheNight
-# 
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-# 
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-# 
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
 #
 
 []
@@ -67,22 +45,18 @@
     Play=开始游戏
 
     Video_Tutorials_OpenButton=视频教程
-    Video_Orbit=入轨教程<size=35>（YouTube）</size>
-    Video_Moon=登月教程<size=35>（YouTube）</size>
-    Video_Dock=对接教程<size=35>（YouTube）</size>
+    Video_Orbit=入轨教程 <size=25><color=grey>[GFW]</color></size>
+    Video_Moon=登月教程 <size=25><color=grey>[GFW]</color></size>
+    Video_Dock=对接教程 <size=25><color=grey>[GFW]</color></size>
 
     Community_OpenButton=游戏社区
-    Community_Youtube=Youtube
-    Community_Discord=Discord
-    Community_Reddit=Reddit
+    Community_Youtube=Youtube <size=25><color=grey>[GFW]</color></size>
+    Community_Discord=Discord <size=25><color=grey>[GFW]</color></size>
+    Community_Reddit=Reddit <size=25><color=grey>[GFW]</color></size>
     Community_Forums=Forums
 
     Credits_OpenButton=制作信息
     
-    Credits_Text=
-    Credits_Text=
-    Credits_Text=
-    Credits_Text=
     Credits_Text=<Size=70> Štefo Mai Morojna </size>
     Credits_Text=<Size=55> 设计 - 程序 - 美术 </size>
     Credits_Text=
@@ -109,10 +83,10 @@
     Credits_Text=
     Credits_Text=
     Credits_Text=
-    Credits_Text=<size=35>译者：</size><size=70>Mr Logic</size>
-    Credits_Text=
-    Credits_Text=<size=35>转载，二改请注明原作者</size>
-    Credits_Text=<size=35>汉化包发布地址：sfscn.sthenight.top</size>
+    Credits_Text=<size=35>译者：</size><size=60>Mr Logic</size>
+    Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
+    Credits_Text=<size=35>本汉化包使用MIT协议开源，详见发布页</size>
+    Credits_Text=<size=35>二改，转载请注明原作者</size>
     Credits_Text=
     Credits_Text=交流：
     Credits_Text=<size=35>TelegramGroup：@sfscnlang</size>
@@ -365,8 +339,8 @@
     Example_Rockets_OpenMenu=示例火箭
     Basic_Rocket=基础火箭
     Stages=分阶火箭
-    Ideal_Stages=理想的火箭
-    Lander=月球着陆器
+    Ideal_Stages=理想型火箭
+    Lander=登月器
 
 [Map]
     Toggle_Map_Button=地图
@@ -589,7 +563,7 @@
 [Part Descriptions]#待打磨
     Capsule_Description=一个小型载人仓，可承载一位宇航员
     Probe_Description=一个无人探测器，用于单向任务
-    Parachute_Description=用于着陆的降落伞
+    Parachute_Description=用于降落的降落伞
     Fuel_Tank_Description=携带液体燃料和液态氧气的燃料箱
     Separator_Description=垂直分离器，用于空中分离阶段
     Side_Separator_Description=侧分离器，用于分离侧助推器
@@ -645,7 +619,7 @@
     Msg_Cannot_Deploy_Parachute_While_Faster=速度大于%velocity%时无法展开降落伞
     Msg_Cannot_Deploy_Parachute_While_Not_Moving=停止移动时无法展开降落伞
     Msg_Parachute_Half_Deployed=降落伞半展开
-    Msg_Parachute_Fully_Deployed=降落伞完全展开
+    Msg_Parachute_Fully_Deployed=降落伞全展开
     Msg_Parachute_Cut=降落伞被切割
 
 [Planets]
@@ -700,23 +674,23 @@
 
 [Challenges]
     Liftoff_Title=升空
-    Liftoff=升空并安全着陆
+    Liftoff=升空并安全降落
 
     Reach10km_Title=抵达10千米
-    Reach10km=到达10千米并安全着陆
+    Reach10km=到达10千米并安全降落
 
     ReachSpace_Title=抵达太空
-    ReachSpace=到达%height%后再入大气层并安全着陆
+    ReachSpace=到达%height%后再入大气层并安全降落
 
     Land100kmDownrange_Title=着陆于100千米外
     Land100kmDownrange=着陆于距发射台100千米外的地方
 
     ReachLowEarthOrbit_Title=抵达地球低轨道
-    ReachLowEarthOrbit=到达地球低轨道并安全着陆
+    ReachLowEarthOrbit=到达地球低轨道并安全降落
 
 
     ReachHighEarthOrbit_Title=抵达地球高轨道
-    ReachHighEarthOrbit=到达地球高轨道并安全着陆
+    ReachHighEarthOrbit=到达地球高轨道并安全降落
 
     MoonOrbit_Title=月球轨道
     MoonOrbit=被月球俘获并安全返回
@@ -728,23 +702,23 @@
     AsteroidImpact=以大于200米每秒的速度撞向小行星表面
 
     MarsGrandTour_Title=火星巡回大赛
-    MarsGrandTour=一次飞行降落在火星、火卫一和火卫二上，然后安全返回
+    MarsGrandTour=在一次飞行内着陆于火星、火卫一和火卫二上，然后安全返回
 
     VenusLanding_Title=登陆金星
     VenusLanding=穿过厚厚的大气层，着陆于金星表面
 
     VenusReturn_Title=往返金星
-    VenusReturn=降落在金星表面，然后穿过厚厚的大气层并安全返回
+    VenusReturn=着陆于金星表面，然后穿过厚厚的大气层并安全返回
 
     MercuryLanding_Title=登陆水星
-    MercuryLanding=降落在水星表面
+    MercuryLanding=着陆于水星表面
 
     MercuryReturn_Title=往返水星
-    MercuryReturn=降落在水星表面并安全返回
+    MercuryReturn=着陆于水星表面并安全返回
 
 
     LandAndReturn_Title=登录%planet{0}%
-    LandAndReturn=降落在%planet{0}%表面并安全返回
+    LandAndReturn=着陆于%planet{0}%表面并安全返回
 
 [Achievements]
     Reached_Height=到达%height%高度
@@ -762,9 +736,9 @@
     Left_Lower_Atmosphere=进入%planet{3}%的高层大气
     Left_Upper_Atmosphere=离开%planet{3}%的大气层
 
-    Landed=降落在%planet{1}%表面
+    Landed=着陆于%planet{1}%表面
     Entered_SOI=进入%planet{1}%引力范围
-    Landed_At_Landmark=降落在%planet{1}%表面的%landmark{2}%
+    Landed_At_Landmark=着陆于%planet{1}%表面的%landmark{2}%
 
     Escaped_SOI=离开%planet{1}%的引力范围
     Docked_Suborbital=%planet{1}%的亚轨道轨迹列表
