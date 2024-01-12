@@ -1,4 +1,4 @@
-## 本仓库不发布release
+## 本仓库不发布releases
 
 # Spaceflight-Simulator-CNlang
 Simplified Chinese language pack for Spaceflight simulator
