@@ -186,7 +186,7 @@
     Quicksave{1}=存档
     Quicksave{2}=存档
 
-    File_Already_Exists=该%filetype{1}%的名字已存在
+    File_Already_Exists=该%filetype{1}%已存在
     Overwrite_File=覆盖原%filetype{1}%
     New_File=重命名%filetype{1}%并保存
 
@@ -636,16 +636,16 @@
     Moon{1}=月球
     Moon{2}=月球
     Mars{0}=火星
-    Phobos{0}=火卫一
-    Deimos{0}=火卫二
+    Phobos{0}=火卫一（福波斯）
+    Deimos{0}=火卫二（戴摩斯）
     Jupiter{0}=木星
     Jupiter{1}=木星
     Jupiter{2}=木星
     Jupiter{3}=木星
-    Europa{0}=木卫二
-    Ganymede{0}=木卫三
-    Io{0}=木卫一
-    Callisto{0}=木卫四
+    Europa{0}=木卫二（欧罗巴）
+    Ganymede{0}=木卫三（盖尼米得）
+    Io{0}=木卫一（伊奥）
+    Callisto{0}=木卫四（卡里斯托）
     Near_Earth_Asteroid{0}=小行星
     Near_Earth_Asteroid{1}=小行星
     Near_Earth_Asteroid{2}=小行星
@@ -682,8 +682,8 @@
     ReachSpace_Title=抵达太空
     ReachSpace=到达%height%后再入大气层并安全降落
 
-    Land100kmDownrange_Title=着陆于100千米外
-    Land100kmDownrange=着陆于距发射台100千米外的地方
+    Land100kmDownrange_Title=降落于100千米外
+    Land100kmDownrange=降落于距发射台100千米外的地方
 
     ReachLowEarthOrbit_Title=抵达地球低轨道
     ReachLowEarthOrbit=到达地球低轨道并安全降落
@@ -701,23 +701,23 @@
     AsteroidImpact_Title=撞击小行星
     AsteroidImpact=以大于200米每秒的速度撞向小行星表面
 
-    MarsGrandTour_Title=火星巡回大赛
-    MarsGrandTour=在一次飞行内着陆于火星、火卫一和火卫二上，然后安全返回
+    MarsGrandTour_Title=火星巡回赛
+    MarsGrandTour=在一次飞行期间内着陆于火星、火卫一和火卫二上并安全返回
 
     VenusLanding_Title=登陆金星
     VenusLanding=穿过厚厚的大气层，着陆于金星表面
 
-    VenusReturn_Title=往返金星
+    VenusReturn_Title=金星往返
     VenusReturn=着陆于金星表面，然后穿过厚厚的大气层并安全返回
 
     MercuryLanding_Title=登陆水星
     MercuryLanding=着陆于水星表面
 
-    MercuryReturn_Title=往返水星
+    MercuryReturn_Title=水星往返
     MercuryReturn=着陆于水星表面并安全返回
 
 
-    LandAndReturn_Title=登录%planet{0}%
+    LandAndReturn_Title=登陆%planet{0}%
     LandAndReturn=着陆于%planet{0}%表面并安全返回
 
 [Achievements]
@@ -751,7 +751,7 @@
     Crashed_Into_Terrain=坠毁于%planet{1}%的表面
 
     Recover_Home=安全降落于%planet{1}%
-    Landed_At_Landmark__Short=降落至%planet{1}%的表面
+    Landed_At_Landmark__Short=降落于%planet{1}%的表面
     Landed_At_Landmark__Short=位置：%landmark%
 [Sharing]
     Share_Button=分享蓝图
