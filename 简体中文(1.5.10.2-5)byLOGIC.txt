@@ -1,10 +1,9 @@
 #
 # 译者：Mr Logic
-# 汉化包版本：1.5.10.2-4(2024/01/12 17:30)
+# 汉化包版本：1.5.10.2-5(2024/01/31 05:00)
 # 适用版本：1.5.10.2
 # 更新日志：详见：sfscn.sthenight.top/changelog.html
 #
-
 []
     译者：Mr Logic \=
     适用版本：1.5.10.2 \=
@@ -217,7 +216,7 @@
     Purchase_Thanks_Msg=多谢惠顾！
     Purchase_Thanks_Msg=现在去探索星球吧！
 
-    Owned=%product%<size=35> [已拥有]</size>
+    Owned=%product% <color=grey><size=35>[已拥有]</size></color>
     
     Time_Upgrade_Text=升级到%product_name% -%sale_percent%
     Time_Upgrade_Text=%time_left%
@@ -400,8 +399,8 @@
     Angle_Horizontal=角度：%angle% / %targetAngle%
 
 [End mission menu]
-    Recover_Rocket=结束
-    Destroy_Rocket=摧毁
+    Recover_Rocket=结束任务
+    Destroy_Rocket=摧毁火箭
     Debris_Recover=回收碎片
     Debris_Destroy=摧毁碎片
     Debris_Recover_Title=你确定要回收碎片吗？
@@ -440,8 +439,8 @@
     End_Navigation=取消目标
     Focus=设为焦点
     Unfocus=取消焦点
-    Switch_To=切换
-    Track=跟随
+    Switch_To=切换火箭
+    Track=跟随视角
     Stop_Tracking=取消跟随
 
 [Rocket]
@@ -471,8 +470,8 @@
 
 [Timestamps]
     Second_Short=%value%秒
-    Minute_Short=%value%分
-    Hour_Short=%value%时
+    Minute_Short=%value%分钟
+    Hour_Short=%value%小时
     Day_Short=%value%天
 
 [Resource Types]
@@ -558,24 +557,24 @@
     Fuel_Pipe_Name{0}=油管
     Fuel_Pipe_Name{1}=油管
 
-[Part Descriptions]#待打磨
+[Part Descriptions]
     Capsule_Description=一个小型载人仓，可承载一位宇航员
-    Probe_Description=一个无人探测器，用于单向任务
+    Probe_Description=一个无人探测器，常用于单向任务
     Parachute_Description=用于降落的降落伞
     Fuel_Tank_Description=携带液体燃料和液态氧气的燃料箱
     Separator_Description=垂直分离器，用于空中分离阶段
     Side_Separator_Description=侧分离器，用于分离侧助推器
     Landing_Leg_Description=用于着陆卫星和行星表面的腿
     Structural_Part_Description=轻质但强悍的钢架
-    Hawk_Engine_Description=高推力但低效率的发动机，通常用于火箭的第一阶段
-    Titan_Engine_Description=高推力但低效率的发动机，通常用于火箭的第一阶段
-    Valiant_Engine_Description=高效率但低推力的发动机，不建议用于第一阶段
-    Frontier_Engine_Description=高效率但低推力的发动机，不建议用于第一阶段
+    Hawk_Engine_Description=高推力低效率的发动机，通常用于火箭的第一阶段
+    Titan_Engine_Description=高推力低效率的发动机，通常用于火箭的第一阶段
+    Valiant_Engine_Description=高效率低推力的发动机，不建议用于第一阶段
+    Frontier_Engine_Description=高效率低推力的发动机，不建议用于第一阶段
     Kolibri_Engine_Description=用于着陆器的小型发动机
     Ion_Engine_Description=极高效率但低推力的离子发动机
     RCS_Thruster_Description=一组小型方向推进器，常用于对接
-    Aerodynamic_Nose_Cone_Description=一种空气动力学鼻锥，用于改善侧助力器的空气阻力
-    Aerodynamic_Fuselage_Description=一种空气动力学鼻锥，用于改善侧助力器的空气阻力
+    Aerodynamic_Nose_Cone_Description=一种空气动力学鼻锥，用于改善侧助推器的空气阻力
+    Aerodynamic_Fuselage_Description=一种空气动力学鼻锥，用于改善侧助推器的空气阻力
     Fairing_Description=用于封装卫星或着陆器的空气动力学整流罩
     Battery_Description=用于储蓄电力的电池
     Solar_Panel_Description=一个太阳能电池板，在展开时产生电力
@@ -648,7 +647,7 @@
     Near_Earth_Asteroid{1}=小行星
     Near_Earth_Asteroid{2}=小行星
 
-[Landmarks]#待打磨
+[Landmarks]
     Sea_of_Tranquility=静海
     Sea_of_Serenity=澄海
     Ocean_of_Storms=风暴洋
