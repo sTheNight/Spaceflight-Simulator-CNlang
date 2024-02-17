@@ -1,6 +1,6 @@
 ## Spaceflight-Simulator-CNlang
 
-Simplified Chinese language pack for [Spaceflight simulator](https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator).
+Simplified Chinese language pack for [Spaceflight simulator](https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator)
 
 [航天模拟器](https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator)简体中文语言包
 
