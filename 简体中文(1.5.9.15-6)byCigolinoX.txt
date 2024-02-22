@@ -1,12 +1,12 @@
 #
-# 译者：Mr Logic
-# 汉化包版本：1.5.10.2-5(2024/01/31 05:00)
-# 适用版本：1.5.10.2
+# 译者：CigolinoX
+# 汉化包版本：1.5.9.15-6(2024/02/22 14:00)
+# 适用版本：1.5.9.15 & 1.5.10.2
 # 更新日志：详见：sfscn.sthenight.top/changelog.html
 #
 []
-    译者：Mr Logic \=
-    适用版本：1.5.10.2 \=
+    译者：CigolinoX \=
+    适用版本：1.5.9.15 & 1.5.10.2 \=
     反馈邮箱：sthenight@qq.com \=
     其他信息请查看“制作信息”页面 \=
     
@@ -81,13 +81,12 @@
     Credits_Text=
     Credits_Text=
     Credits_Text=
-    Credits_Text=<size=35>译者：</size><size=60>Mr Logic</size>
+    Credits_Text=<size=35>译者：</size><size=60>CigolinoX</size>
     Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
     Credits_Text=<size=35>二改，转载请注明原作者</size>
     Credits_Text=
     Credits_Text=交流：
-    Credits_Text=<size=35>TelegramGroup：@sfscnlang</size>
-    Credits_Text=<size=35>QQ Channel：w998o15r2i</size>
+    Credits_Text=<size=35>QQ群：599692426</size>
 
     Update_Available=有新版本发布了！
     Update_Available=
@@ -229,11 +228,10 @@
     Timed_Sale_Text=%time_left%
 
     PartsExpansion_Tanks=各式各样的油箱！
-    PartsExpansion_Engines=重型发动机！
-    PartsExpansion_Parts=各种形状、尺寸的部件！
-
+    PartsExpansion_Engines=还有重型发动机！
+    PartsExpansion_Parts=以及各种形状、尺寸的部件！
     PartsExpansion_Build=给您带来更大的创作空间
-    PartsExpansion_Build=让您的想法得偿所愿
+    PartsExpansion_Build=让您的作品变得栩栩如生！
 
     SkinsExpansion_Tanks=这将会拥有各式各样的纹理！
     SkinsExpansion_Interstages=从级间的材质！
@@ -241,10 +239,9 @@
     SkinsExpansion_Fairings=甚至还有整流罩！
 
     PlanetsExpansion_Jupiter=探索木星及其四个卫星！
-    PlanetsExpansion_Callisto=从令人毛骨悚然的陨石坑！
+    PlanetsExpansion_Callisto=从木卫四布满火山口的表面开始！
     PlanetsExpansion_Europa=到木卫二的广阔冰原！
-
-    PlanetsExpansion_Conclusion=它们正在等着你
+    PlanetsExpansion_Conclusion=遥远的世界正在等待着你
     PlanetsExpansion_Conclusion=探索他们吧！
     
     Mac_Full_Version=完整版
@@ -558,31 +555,31 @@
     Fuel_Pipe_Name{1}=油管
 
 [Part Descriptions]
-    Capsule_Description=一个小型载人仓，可承载一位宇航员
-    Probe_Description=一个无人探测器，常用于单向任务
-    Parachute_Description=用于降落的降落伞
-    Fuel_Tank_Description=携带液体燃料和液态氧气的燃料箱
+    Capsule_Description=小型载人仓，可承载一名宇航员
+    Probe_Description=无人探测器，常用于单程任务
+    Parachute_Description=用于着陆的降落伞
+    Fuel_Tank_Description=装载液体燃料和液态氧气的燃料箱
     Separator_Description=垂直分离器，用于空中分离阶段
     Side_Separator_Description=侧分离器，用于分离侧助推器
-    Landing_Leg_Description=用于着陆卫星和行星表面的腿
+    Landing_Leg_Description=可伸缩的腿，用于在卫星和行星表面着陆
     Structural_Part_Description=轻质但强悍的钢架
     Hawk_Engine_Description=高推力低效率的发动机，通常用于火箭的第一阶段
     Titan_Engine_Description=高推力低效率的发动机，通常用于火箭的第一阶段
-    Valiant_Engine_Description=高效率低推力的发动机，不建议用于第一阶段
-    Frontier_Engine_Description=高效率低推力的发动机，不建议用于第一阶段
-    Kolibri_Engine_Description=用于着陆器的小型发动机
-    Ion_Engine_Description=极高效率但低推力的离子发动机
-    RCS_Thruster_Description=一组小型方向推进器，常用于对接
-    Aerodynamic_Nose_Cone_Description=一种空气动力学鼻锥，用于改善侧助推器的空气阻力
-    Aerodynamic_Fuselage_Description=一种空气动力学鼻锥，用于改善侧助推器的空气阻力
+    Valiant_Engine_Description=高效率低推力的发动机，当不需要优先考虑大推力时使用
+    Frontier_Engine_Description=高效率低推力的发动机，当不需要优先考虑大推力时使用
+    Kolibri_Engine_Description=用于着陆器的微型发动机
+    Ion_Engine_Description=效率极高的低推力发动机
+    RCS_Thruster_Description=一组小型定向推进器，常用于对接
+    Aerodynamic_Nose_Cone_Description=一种空气动力学鼻锥，用于改善侧助推器的空气动力性能
+    Aerodynamic_Fuselage_Description=空气动力机身，用于覆盖发动机
     Fairing_Description=用于封装卫星或着陆器的空气动力学整流罩
     Battery_Description=用于储蓄电力的电池
-    Solar_Panel_Description=一个太阳能电池板，在展开时产生电力
-    RTG_Description=放射性同位素热电机，简称RTG
+    Solar_Panel_Description=太阳能电池板，在展开时产生电力
+    RTG_Description=放射性同位素热电机，简称RTG，可产生电力
     Rover_Wheel_Description=用于行驶在行星表面的轮子
     Docking_Port_Description=用于将两个卫星或其他物体连接在一起的对接口
-    Heat_Shield_Description=用于进入大气层时避免热损
-    Fuel_Pipe_Description=用于输送燃料的导管
+    Heat_Shield_Description=用于重返大气层的耐热防护层
+    Fuel_Pipe_Description=用于传输燃料的管道
     Booster_Description=仅能启动一次，拥有极高的可信任度但低效率
 
 [Modules]
