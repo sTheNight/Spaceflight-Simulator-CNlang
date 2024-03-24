@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "航天模拟器汉化包",
+  base: '/Spaceflight-Simulator-CNlang/',
   lang: 'zh-CN',
   description: 'Simplified Chinese language pack for Spaceflight simulator',
   lastUpdated: true,
