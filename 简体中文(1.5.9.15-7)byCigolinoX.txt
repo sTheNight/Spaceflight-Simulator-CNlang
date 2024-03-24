@@ -1,15 +1,9 @@
 #
 # 译者：CigolinoX
-# 汉化包版本：1.5.9.15-6(2024/02/22 14:00)
+# 汉化包版本：1.5.9.15-7(2024/03/24 19:20)
 # 适用版本：1.5.9.15 & 1.5.10.2
-# 更新日志：详见：sfscn.sthenight.top/changelog.html
-#
-[]
-    译者：CigolinoX \=
-    适用版本：1.5.9.15 & 1.5.10.2 \=
-    反馈邮箱：sthenight@qq.com \=
-    其他信息请查看“制作信息”页面 \=
-    
+# 更新日志：详见sfscn.sthenight.top/changelog.html
+#  
 [None]
     None=None
     Font=normal  #normal / compatibility
@@ -31,7 +25,6 @@
     Exit_To_Main_Menu=返回菜单
 
 [Main Menu]
-
     Development_Preview=开发预览
     Development_Preview_Explanation=开发预览展示了我们的未来更新计划
 
@@ -83,7 +76,7 @@
     Credits_Text=
     Credits_Text=<size=35>译者：</size><size=60>CigolinoX</size>
     Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
-    Credits_Text=<size=35>二改，转载请注明原作者</size>
+    Credits_Text=<size=35>二改，转载请<b>注明原作者</b></size>
     Credits_Text=
     Credits_Text=交流：
     Credits_Text=<size=35>QQ群：599692426</size>
@@ -130,7 +123,7 @@
     World_Difficulty_Name=难度：%value%
     Difficulty_Normal=默认
     Difficulty_Hard=困难
-    Difficulty_Realistic=真实（？）
+    Difficulty_Realistic=真实 #?
 
     Last_Played=上次游玩：%value%之前
     Just_Played=上次游玩：刚刚
@@ -140,6 +133,7 @@
     Mode_Career=生涯模式
     Mode_Sandbox=沙盒模式
     Mode_Challenge=挑战模式
+
 [World Create Menu]
     World_Create_Title=创建世界
     World_Name_Label=世界名称：
@@ -147,11 +141,6 @@
     Mode_Label=模式：
     Difficulty_Label=难度：
 
-    #（？）
-    Difficulty_Scale_Stat=Scale: 1:%scale%
-    Difficulty_Isp_Stat=Specific Impulse: %value%x
-    Difficulty_Dry_Mass_Stat=Tank Dry Mass: %value%x
-    Difficulty_Engine_Mass_Stat=Engine Mass: %value%x
 [Saving]
     Blueprints_Menu_Title=蓝图
     Unnamed_Blueprint=未命名蓝图
@@ -195,7 +184,7 @@
     Planets_Expansion=星球拓展包
     Redstone_Atlas_Pack=红石阿特拉斯拓展包
     Cheats_Expansion=作弊选项
-    Infinite_Area_Expansion=无限的蓝图
+    Infinite_Area_Expansion=无限大的蓝图
     Builder_Bundle=建造捆绑包
     Sandbox_Bundle=沙盒捆绑包
     Full_Bundle=完整捆绑包
@@ -207,7 +196,7 @@
     Buy_Product=购买：%product% %price%
     
     Cannot_Use_Cheats_In_Career=作弊选项仅能在“沙盒模式”的世界中使用
-    Get_Infinite_Build_Area_Button=解锁无限蓝图
+    Get_Infinite_Build_Area_Button=解锁无限大的蓝图
     Get_Cheats_Expansion_Button=解锁作弊功能
 
     Purchase_Thanks_Msg=购买：%product%
@@ -261,10 +250,11 @@
     Shakes_Name=镜头抖动：
     Orbit_Line_Count=轨道数量：
     Anti_Aliasing=抗锯齿：
+
 [Cheats]
-    Infinite_Build_Area_Name=无限的蓝图
+    Infinite_Build_Area_Name=无限大的蓝图
     Part_Clipping_Name=部件可堆叠
-    Infinite_Fuel_Name=不竭的燃料
+    Infinite_Fuel_Name=无尽的燃料
     No_Atmospheric_Drag_Name=无大气摩擦
     No_Collision_Damage_Name=无撞击损伤
     No_Gravity_Name=无重力模式
@@ -272,7 +262,7 @@
     No_Burn_Marks_Name=无灼烧痕迹
     
 [Tutorials]
-    Tut_Drag_And_Drop=拖放零件
+    Tut_Drag_And_Drop=拖放部件
     Tut_Drag_And_Drop=以建造你的火箭
 
     Tut_Part_Info=点击查看
@@ -293,7 +283,7 @@
     Funds_Text=资金：%funds%
     Go_To_Space_Center=航空中心
     Exit_To_Space_Center=回到航空中心
-    Research_And_Development=研究和发展%complete%/%total%
+    Research_And_Development=研究与发展 %complete%/%total%
     
 [Failure menu]
     Failure_Cause=失败原因：
@@ -338,10 +328,9 @@
 
 [Map]
     Toggle_Map_Button=地图
-
-    Escape=脱离
+    Escape=逃逸
     Encounter=相遇
-    Rendezvous=交汇
+    Rendezvous=交会
     Transfer=转移
 
 [Game]
@@ -392,7 +381,6 @@
     Velocity_Relative_Horizontal=相对速度：%speed%
     Distance_Relative_Horizontal=相对距离：%distance%
 
-
     Angle_Horizontal=角度：%angle% / %targetAngle%
 
 [End mission menu]
@@ -442,7 +430,8 @@
 
 [Rocket]
     Default_Rocket_Name=未命名火箭
-    No_Control_Msg=失去控制单元
+    No_Control_Msg=失控单元
+
 [Timewarp]
     Msg_Timewarp_Speed=时间倍速：%speed%x
     
@@ -454,6 +443,7 @@
     Cannot_Timewarp_Below_Basic=不能在%height%之下进行时间加速
 
     Timewarp_To_Button=加速时间到此处
+
 [Units]
     Thrust_To_Weight_Ratio=推重比：%value%
     Mass=质量：%value%吨
@@ -747,6 +737,7 @@
     Recover_Home=安全降落于%planet{1}%
     Landed_At_Landmark__Short=降落于%planet{1}%的表面
     Landed_At_Landmark__Short=位置：%landmark%
+
 [Sharing]
     Share_Button=分享蓝图
     Upload_Blueprint_PC=上传蓝图
