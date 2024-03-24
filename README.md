@@ -11,5 +11,3 @@
 ## 其他
 
 你可以在[此地址](https://sfscn.sthenight.top/get.html#获取)或clone本仓库获取此汉化包
-
-本仓库不发布Releases
