@@ -3,7 +3,7 @@
 # 汉化包版本：1.5.9.15-7(2024/03/24 19:20)
 # 适用版本：1.5.9.15 & 1.5.10.2
 # 更新日志：详见sfscn.sthenight.top/changelog.html
-#  
+#
 [None]
     None=None
     Font=normal  #normal / compatibility
@@ -76,7 +76,7 @@
     Credits_Text=
     Credits_Text=<size=35>译者：</size><size=60>CigolinoX</size>
     Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
-    Credits_Text=<size=35>二改，转载请注明原作者</size>
+    Credits_Text=<size=35>二改，转载请<b>注明原作者</b></size>
     Credits_Text=
     Credits_Text=交流：
     Credits_Text=<size=35>QQ群：599692426</size>
@@ -119,11 +119,11 @@
     Select_Solar_System__NotFound=选择新的星系
 
     Default_Solar_System=太阳系（默认）
-    Custom_Solar_System=%name%（外置）
+    Custom_Solar_System=%name%（自定义）
     World_Difficulty_Name=难度：%value%
     Difficulty_Normal=默认
     Difficulty_Hard=困难
-    Difficulty_Realistic=真实 #?
+    Difficulty_Realistic=真实
 
     Last_Played=上次游玩：%value%之前
     Just_Played=上次游玩：刚刚
@@ -182,7 +182,7 @@
     Parts_Expansion=部件拓展包
     Skins_Expansion=材质拓展包
     Planets_Expansion=星球拓展包
-    Redstone_Atlas_Pack=红石阿特拉斯拓展包
+    Redstone_Atlas_Pack=红石、阿特拉斯拓展包
     Cheats_Expansion=作弊选项
     Infinite_Area_Expansion=无限大的蓝图
     Builder_Bundle=建造捆绑包
@@ -312,7 +312,7 @@
     Missing_Capsule=你的火箭没有控制中心
     Missing_Parachute=你的火箭没有降落伞
     Missing_Heat_Shield=你的火箭没有隔热罩
-    Too_Heavy=你的火箭太重了导致无法发射，请使用推理更大的发动机或减轻重量
+    Too_Heavy=你的火箭太重了导致无法发射，请使用推力更大的发动机或减轻重量
     Launch_Anyway_Button=仍然发射
     Missing_Fuel_Popup=没有燃料来源
 
@@ -331,7 +331,7 @@
     Escape=逃逸
     Encounter=相遇
     Rendezvous=交会
-    Transfer=转移
+    Transfer=转移窗口
 
 [Game]
     Throttle_On=开启
@@ -424,7 +424,7 @@
     End_Navigation=取消目标
     Focus=设为焦点
     Unfocus=取消焦点
-    Switch_To=切换火箭
+    Switch_To=切换视角
     Track=跟随视角
     Stop_Tracking=取消跟随
 
@@ -576,7 +576,7 @@
     Magnet_Force=磁力：%value%kN
     Torque_Module_Torque=扭矩：%value%kN
     Separation_Force=分离力：%value%kN
-    Max_Heat_Tolerance=耐热性：%temperature%
+    Max_Heat_Tolerance=耐热：%temperature%
 
     State_On{0}=开启
     State_Off{0}=关闭
