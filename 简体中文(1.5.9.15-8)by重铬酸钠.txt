@@ -1,6 +1,6 @@
 #
-# 译者：CigolinoX
-# 汉化包版本：1.5.9.15-7(2024/03/24 19:20)
+# 译者：重铬酸钠
+# 汉化包版本：1.5.9.15-8(2024/05/21 14:00)
 # 适用版本：1.5.9.15 & 1.5.10.2
 # 更新日志：详见sfscn.sthenight.top/changelog.html
 #
@@ -74,7 +74,7 @@
     Credits_Text=
     Credits_Text=
     Credits_Text=
-    Credits_Text=<size=35>译者：</size><size=60>CigolinoX</size>
+    Credits_Text=<size=35>译者：</size><size=60>重铬酸钠</size>
     Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
     Credits_Text=<size=35>二改，转载请<b>注明原作者</b></size>
     Credits_Text=
@@ -243,7 +243,7 @@
     Music_Name=背景音乐：
     Sound_Name=游戏音效：
     Screen_Rotation_Name=屏幕旋转：
-    FPS_Name=帧率限制：
+    FPS_Name=最大帧率：
     Language_Name=语言：
     Menu_Scale=界面尺寸：
     Menu_Opacity=不透明度：
@@ -258,7 +258,7 @@
     No_Atmospheric_Drag_Name=无大气摩擦
     No_Collision_Damage_Name=无撞击损伤
     No_Gravity_Name=无重力模式
-    No_Heat_Damage_Name=无大气热损
+    No_Heat_Damage_Name=无高温热损
     No_Burn_Marks_Name=无灼烧痕迹
     
 [Tutorials]
@@ -288,7 +288,7 @@
 [Failure menu]
     Failure_Cause=失败原因：
     Failure_Crash_Into_Rocket=撞上了另一枚火箭
-    Failure_Crash_Into_Terrain=坠毁于%planet{1}%的地表
+    Failure_Crash_Into_Terrain=坠毁于%planet{1}%的表面
     Failure_Burn_Up=再入时被烧毁
 
 [Build]
