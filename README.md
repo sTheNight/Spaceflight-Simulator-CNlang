@@ -10,4 +10,4 @@
 
 ## 其他
 
-你可以在[此地址](https://sfscn.sthenight.top/get.html#下载)或clone本仓库获取此汉化包
+你可以在[此地址](https://sfscn.sthenight.top/get.html#download)或clone本仓库获取此汉化包
