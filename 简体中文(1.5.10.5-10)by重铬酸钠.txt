@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-9(2024/10/1)
+# 汉化包版本：1.5.10.5-9(2024/11/7)
 # 适用版本：1.5.10.5
 # 更新日志：详见sfscn.sthenight.top/changelog.html
 #
@@ -143,14 +143,14 @@
     
 [Teleport Menu]
     Teleport_Cheat=传送选项
-    Teleport_Action=传送选项
+    Teleport_Action=传送
     Planet_Select=星体：
     Surface_Teleport_Type=表面
     Orbit_Teleport_Type=轨道
     Teleport_Longitude=经度：
     Teleport_Height=高度 (%unit%):
-    Teleport_Orbit_Prograde=顺行
-    Teleport_Orbit_Retrograde=逆行# 可能是顺逆时针（？
+    Teleport_Orbit_Prograde=顺时针
+    Teleport_Orbit_Retrograde=逆时针
 
 [Saving]
     Blueprints_Menu_Title=蓝图
