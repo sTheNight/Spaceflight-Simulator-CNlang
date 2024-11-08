@@ -10,7 +10,7 @@
 
 ## 下载
 
- * 🔗[蓝奏云](https://thenight.lanzoue.com/b0559q3yd)  
+ * 🔗[蓝奏云(密码0000)](https://thenight.lanzoue.com/b0559q3yd)  
  * 🔗[Github 仓库](https://github.com/sTheNight/Spaceflight-Simulator-CNlang)
 
 ## 附言
