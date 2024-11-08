@@ -1,22 +1,30 @@
-## Spaceflight-Simulator-CNlang
+## [航天模拟器](https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator)简体中文汉化包
 
-[航天模拟器](https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator)简体中文语言包
+本汉化由重铬酸钠制作。
 
-若您需要对翻译内容进行指正，您可以通过[发送邮件](mailto:sthenight@qq.com)或前往[QQ群](https://qm.qq.com/q/faEnNG23h6)的方式进行反馈
-
-从 1.5.9.15 版本开始，此仓库将会留下每个（航天模拟器）版本的最后一个汉化包子版本，对于汉化包文件没有出现任何变化的版本将会将他们视作同一版本处理。
-
-很显然我没有精力去维护每个版本的汉化包，因此我只会维护航天模拟器的最新版的汉化包。
+若您需要对翻译内容进行指正，您可以通过[发送邮件](mailto:sthenight@qq.com)或前往[QQ频道](https://pd.qq.com/s/fmn80df6s)的方式进行反馈。
 
 ## 二改
 
-本汉化包使用 MIT License 进行分发，因此我们允许您进行任意的修改，仅需**注明原作者**即可。
+本汉化包使用 [MIT License] 进行分发，因此我们允许您进行任意的修改，仅需**注明原作者**即可。
 
-## 其他
+## 下载
 
-你可以在[此地址](https://sfscn.sthenight.top/get.html#download)或clone本仓库获取此汉化包
+ * 🔗[蓝奏云](https://thenight.lanzoue.com/b0559q3yd)  
+ * 🔗[Github 仓库](https://github.com/sTheNight/Spaceflight-Simulator-CNlang)
+
+## 附言
+
+从 1.5.9.15 版本开始，Github 仓库内将只会留下每个（航天模拟器）版本的最后一个汉化包子版本，对于汉化包文件没有出现任何变化的版本将会将他们视作同一版本处理，不过蓝奏云内会留有更新过的所有版本。
+
+很显然我没有精力去维护每个版本的汉化包，因此我只会维护航天模拟器的最新版的汉化包。
+
+我没有义务去维护这个汉化包，请不要对我进行任何的绑架。
 
 ## License
+
+参考副本如下：
+
 ```
 MIT License
 
