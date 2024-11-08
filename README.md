@@ -2,11 +2,11 @@
 
 本汉化由重铬酸钠制作。
 
-若您需要对翻译内容进行指正，您可以通过[发送邮件](mailto:sthenight@qq.com)或前往[QQ频道](https://pd.qq.com/s/fmn80df6s)的方式进行反馈。
+欢迎加入[QQ频道](https://pd.qq.com/s/fmn80df6s)，欢迎对汉化内容进行指正。
 
 ## 二改
 
-本汉化包使用 [MIT License](#License) 进行分发，因此我们允许您进行任意的修改，仅需注明原作者即可。
+本汉化包使用 [MIT License](#license) 进行分发，因此我们允许您进行任意的修改，仅需注明原作者即可。
 
 ## 下载
 
@@ -23,11 +23,9 @@
 
 ## 更新日志
 
-[点击此处](/changelog)
+[点击此处](https://sfscn.sthenight.top/changelog)
 
 ## License
-
-参考副本如下：
 
 ```
 MIT License
