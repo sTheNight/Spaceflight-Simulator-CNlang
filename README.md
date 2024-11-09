@@ -1,4 +1,4 @@
-## [航天模拟器](https://play.google.com/store/apps/details?id=com.StefMorojna.SpaceflightSimulator)简体中文汉化包
+## [航天模拟器](https://www.spaceflightsimulator.com/)简体中文汉化包
 
 本汉化由重铬酸钠制作。
 

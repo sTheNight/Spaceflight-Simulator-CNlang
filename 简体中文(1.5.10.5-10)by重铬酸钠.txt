@@ -103,8 +103,9 @@
     Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
     Credits_Text=<size=35>采用 MIT License 分发，转载、二改请注明原作者</size>
     Credits_Text=
-    Credits_Text=交流：
+    Credits_Text=交流
     Credits_Text=<size=35>QQ群：599692426</size>
+    Credits_Text=<size=35>QQ频道：w998o15r2i</size>
 
     Update_Available=有新版本发布了！
     Update_Available=
