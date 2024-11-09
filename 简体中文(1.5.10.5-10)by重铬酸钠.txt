@@ -2,7 +2,7 @@
 # 译者：重铬酸钠
 # 汉化包版本：1.5.10.5-9(2024/11/7)
 # 适用版本：1.5.10.5
-# 更新日志：详见sfscn.sthenight.top/changelog.html
+# 更新日志：详见 sfscn.sthenight.top/changelog.html
 #
 # 采用 MIT License 进行分发，参考副本如下：
 # 
@@ -216,7 +216,7 @@
 
 [Purchasing]
     Open_Shop_Menu=游戏拓展
-    Open_Shop_Menu_2=Open shop# 待翻译
+    Open_Shop_Menu_2=打开商店
     Parts_Expansion=部件拓展包
     Skins_Expansion=材质拓展包
     Planets_Expansion=星球拓展包
@@ -520,7 +520,6 @@
     Msg_No_Resource_Left=剩余%resource{1}%不足
     
 [Part Pick Categories]
-    # 可以重复定义同一个标签用于多行显示
     Part_Pick_Category_Aero=空气动力
     Part_Pick_Category_Parachutes=降落伞
     Part_Pick_Category_Engines=引擎
@@ -819,3 +818,4 @@
     Downloading_Message=下载中…
     Download_Fail=下载蓝图失败
     Sharing_Connect_Fail=无法连接分享服务器
+# 可以重复定义同一个键值对用于多行显示
