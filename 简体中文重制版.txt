@@ -217,26 +217,26 @@
     Load_Failed=无法在%filepath%找到“%filetype{1}%”
 
 [Purchasing]
-    Open_Shop_Menu=Expansions
-    Open_Shop_Menu_2=Open shop
-    Parts_Expansion=Parts Expansion
-    Redstone_Atlas_Pack=Redstone Atlas Pack
-    Skins_Expansion=Skins Expansion
-    Planets_Expansion=Planets Expansion
-    Cheats_Expansion=Cheats
-    Infinite_Area_Expansion=Infinite Build Area
-    Builder_Bundle=Builder Bundle
-    Sandbox_Bundle=Sandbox Bundle
-    Full_Bundle=Full Bundle
-    Upgrade_To_Full_Bundle=Upgrade To Full Bundle
-    Mac_Full_Version=Full Version
+    Open_Shop_Menu=游戏拓展
+    Open_Shop_Menu_2=打开商店
+    Parts_Expansion=部件拓展包
+    Redstone_Atlas_Pack=红石、斯特拉斯拓展包
+    Skins_Expansion=材质拓展包
+    Planets_Expansion=星球拓展包
+    Cheats_Expansion=作弊选项
+    Infinite_Area_Expansion=无限大的蓝图
+    Builder_Bundle=建造捆绑包 #待优化
+    Sandbox_Bundle=沙盒捆绑包
+    Full_Bundle=完整捆绑包
+    Upgrade_To_Full_Bundle=升级到完整捆绑包
+    Mac_Full_Version=完整版 #待优化
 
-    Not_All_Parts_Are_Owned=Not all parts are owned
-    Not_All_Parts_Are_Owned=Disabled not owned parts
+    Not_All_Parts_Are_Owned=并非所有部件都已拥有
+    Not_All_Parts_Are_Owned=禁用所有未解锁的部件
     Not_All_Parts_Are_Owned=
-    Not_All_Parts_Are_Owned=View parts expansion?
+    Not_All_Parts_Are_Owned=查看部件扩展包？
 
-    View_Part_Expansion=View Expansion
+    View_Part_Expansion=视图扩展
 
     More_Parts=View Parts Expansion
     More_Skins=View Skins Expansion
