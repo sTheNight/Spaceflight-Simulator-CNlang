@@ -181,40 +181,40 @@
     Teleport_Orbit_Retrograde=Retrograde
 
 [Saving]
-    Blueprints_Menu_Title=Blueprints
-    Unnamed_Blueprint=Unnamed Blueprint
-    Save_Blueprint=Save Blueprint
-    Load_Blueprint=Load Blueprint
-    Cannot_Save_Empty_Build=Cannot save an empty blueprint
+    Blueprints_Menu_Title=蓝图
+    Unnamed_Blueprint=未命名蓝图
+    Save_Blueprint=保存蓝图
+    Load_Blueprint=加载蓝图
+    Cannot_Save_Empty_Build=无法保存空蓝图
 
-    Quicksaves_Menu_Title=Quicksaves
-    Unnamed_Quicksave=Unnamed Quicksave
-    Create_Quicksave=Create Quicksave
-    Load_Quicksave=Load Quicksave
+    Quicksaves_Menu_Title=存档
+    Unnamed_Quicksave=未命名存档
+    Create_Quicksave=保存存档
+    Load_Quicksave=加载存档
 
-    Save=Save
-    Load=Load
-    Import=Import
-    Delete=Delete
-    Rename=Rename
-    Delete_File_With_Type=Delete %filename% %filetype{1}%
+    Save=保存
+    Load=加载
+    Import=导入
+    Delete=删除
+    Rename=重命名
+    Delete_File_With_Type=你确定要删除%filetype{1}%“%filename%”吗
 
-    Saving_In_Progress=Saving...
-    Loading_In_Progress=Loading...
-    Importing_In_Progress=Importing...
+    Saving_In_Progress=保存中...
+    Loading_In_Progress=加载中...
+    Importing_In_Progress=导入中...
 
-    Blueprint{0}=Blueprint
-    Blueprint{1}=blueprint
-    Blueprint{2}=blueprints
-    Quicksave{0}=Quicksave
-    Quicksave{1}=quicksave
-    Quicksave{2}=quicksaves
+    Blueprint{0}=蓝图
+    Blueprint{1}=蓝图
+    Blueprint{2}=蓝图
+    Quicksave{0}=存档
+    Quicksave{1}=存档
+    Quicksave{2}=存档
 
-    File_Already_Exists=A %filetype{1}% with this name already exists
-    Overwrite_File=Overwrite %filetype{1}%
-    New_File=New %filetype{1}%
+    File_Already_Exists=该%filetype{1}%已存在
+    Overwrite_File=覆盖原%filetype{1}%
+    New_File=重命名%filetype{1}%并保存
 
-    Load_Failed=Could not load %filetype{1}% from %filepath%
+    Load_Failed=无法在%filepath%找到“%filetype{1}%”
 
 [Purchasing]
     Open_Shop_Menu=Expansions
