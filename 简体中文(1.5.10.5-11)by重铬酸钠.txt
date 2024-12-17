@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-11(2024/11/7)
+# 汉化包版本：1.5.10.5-10(2024/11/7)
 # 适用版本：1.5.10.5
 # 更新日志：详见 sfscn.sthenight.top/changelog.html
 #
@@ -530,7 +530,7 @@
     Part_Pick_Category_Electricity=电力
     Part_Pick_Category_Fuel=油箱
     Part_Pick_Category_Fairings=整流罩
-    Part_Pick_Category_Wheels=轮胎
+    Part_Pick_Category_Wheels=轮子
     Part_Pick_Category_Docking=对接器
     Part_Pick_Category_Heat_Protection=隔热罩
     Part_Pick_Category_Staging=分离器
@@ -611,7 +611,7 @@
     Capsule_Description=小型载人仓，可承载一名宇航员
     Probe_Description=无人探测器，常用于单程任务
     Parachute_Description=用于着陆的降落伞
-    Fuel_Tank_Description=装载液态燃料和液态氧气的油箱
+    Fuel_Tank_Description=装载液态燃料和液态氧气的燃料箱
     Separator_Description=垂直分离器，用于空中分离阶段
     Side_Separator_Description=侧分离器，用于分离侧助推器
     Landing_Leg_Description=可伸缩的腿，用于在卫星和行星表面着陆
