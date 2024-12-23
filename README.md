@@ -12,6 +12,7 @@
 
 ## 下载
 
+ * 🔗[重铬酸钠の存储站](https://alist.na2cr2o7.icu/SpaceflightSimulator_CNlang)
  * 🔗[蓝奏云(密码0000)](https://thenight.lanzoue.com/b0559q3yd)  
  * 🔗[Github 仓库](https://github.com/sTheNight/Spaceflight-Simulator-CNlang)
 
