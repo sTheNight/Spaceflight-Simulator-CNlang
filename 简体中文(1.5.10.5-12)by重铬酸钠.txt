@@ -1,8 +1,8 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-11(2024/12/17)
+# 汉化包版本：1.5.10.5-12(2025/01/28)
 # 适用版本：1.5.10.5
-# 更新日志：详见 sfscn.sthenight.top/changelog.html
+# 更新日志：详见 sfscn.project.na2cr2o7.icu/changelog
 #
 # 采用 MIT License 进行分发，参考副本如下：
 # 
@@ -53,7 +53,7 @@
     Development_Preview=开发预览
     Development_Preview_Explanation=开发预览展示了我们的未来更新计划
 
-    First_Time_Playing_Question=第一次游玩Spaceflight Simulator吗？
+    First_Time_Playing_Question=第一次游玩 Spaceflight Simulator 吗？
 
     First_Time_Playing_Yes=是的
     First_Time_Playing_No=曾经玩过
@@ -69,7 +69,7 @@
     Community_Youtube=Youtube <size=25><color=grey>[GFW]</color></size>
     Community_Discord=Discord <size=25><color=grey>[GFW]</color></size>
     Community_Reddit=Reddit <size=25><color=grey>[GFW]</color></size>
-    Community_Forums=Forums
+    Community_Forums=官方论坛
 
     Credits_OpenButton=制作信息
     
@@ -100,7 +100,7 @@
     Credits_Text=
     Credits_Text=
     Credits_Text=<size=35>译者：</size><size=60>重铬酸钠</size>
-    Credits_Text=<size=35>汉化包发布页：sfscn.sthenight.top</size>
+    Credits_Text=<size=35>汉化包发布页：sfscn.project.na2cr2o7.icu</size>
     Credits_Text=<size=35>采用 MIT License 分发，转载、二改请注明原作者</size>
     Credits_Text=
     Credits_Text=交流
@@ -218,7 +218,7 @@
     Open_Shop_Menu=游戏拓展
     Open_Shop_Menu_2=打开商店
     Parts_Expansion=部件拓展包
-    Skins_Expansion=材质拓展包
+    Skins_Expansion=纹理拓展包
     Planets_Expansion=星球拓展包
     Redstone_Atlas_Pack=红石、阿特拉斯拓展包
     Cheats_Expansion=作弊选项
@@ -249,7 +249,7 @@
 
     Restore_Open=恢复购买
     
-    View_Part_Expansion=视图扩展
+    View_Part_Expansion=查看部件拓展
     
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
@@ -258,16 +258,16 @@
     PartsExpansion_Engines=还有重型引擎！
     PartsExpansion_Parts=以及各种形状、尺寸的部件！
     PartsExpansion_Build=给您带来更大的创作空间
-    PartsExpansion_Build=让您的作品变得栩栩如生！
+    PartsExpansion_Build=让您的想法得以实现！
 
     SkinsExpansion_Tanks=这将会拥有各式各样的纹理！
-    SkinsExpansion_Interstages=从级间的材质！
-    SkinsExpansion_Nosecones=到鼻锥材质！
+    SkinsExpansion_Interstages=从级间…
+    SkinsExpansion_Nosecones=到鼻锥…
     SkinsExpansion_Fairings=甚至还有整流罩！
 
     PlanetsExpansion_Jupiter=探索木星及其四个卫星！
     PlanetsExpansion_Callisto=从木卫四布满火山口的表面开始！
-    PlanetsExpansion_Europa=到木卫二的广阔冰原！
+    PlanetsExpansion_Europa=再到木卫二的广阔冰原！
     PlanetsExpansion_Conclusion=遥远的世界正在等待着你
     PlanetsExpansion_Conclusion=探索他们吧！
     
