@@ -645,16 +645,16 @@
     State_Off{0}=关闭
 
     Engine_Module_State=引擎%state{0}%
-    Engine_On_Label=开启
-    Gimbal_On_Label=矢量
+    Engine_On_Label=启用引擎
+    Gimbal_On_Label=启用万向节
 
     Msg_RCS_Module_State=RCS%state{0}%
 
     Wheel_Module_State=轮子%state{0}%
-    Wheel_On_Label=轮子打开
+    Wheel_On_Label=启用轮子
 
     Panel_Expanded=展开
-    Landing_Leg_Expanded=合上
+    Landing_Leg_Expanded=展开
     
     Detach_Edges_Label=分离边缘
     Adapt_To_Tanks_Label=适应油箱
