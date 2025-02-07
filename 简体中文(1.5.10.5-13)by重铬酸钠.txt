@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-12(2025/01/28)
+# 汉化包版本：1.5.10.5-13(*)
 # 适用版本：1.5.10.5
 # 更新日志：详见 sfscn.project.na2cr2o7.icu/changelog
 #
@@ -116,9 +116,9 @@
 
     Rate_Title=你想评价这款游戏吗？
     Rate_Title=
-    Rate_Title=我们非常重视游戏质量，您的反馈有助于我们改进游戏。
+    Rate_Title=我们高度重视游戏的质量，您的反馈有助于我们改进游戏
     Rate_Title=
-    Rate_Title=我们每条留言会认真查看！
+    Rate_Title=即使已有成千上万条评测，我们仍会逐条阅读！
 
     Rate_Confirm=评价
 
@@ -151,7 +151,7 @@
     Difficulty_Hard=困难
     Difficulty_Realistic=真实
 
-    Last_Played=上次游玩：%value%之前
+    Last_Played=上次游玩：%value%前
     Just_Played=上次游玩：刚刚
     Time_Played=游玩时长：%value%
 
@@ -222,7 +222,7 @@
     Planets_Expansion=星球拓展包
     Redstone_Atlas_Pack=红石、阿特拉斯拓展包
     Cheats_Expansion=作弊选项
-    Infinite_Area_Expansion=无限大的蓝图
+    Infinite_Area_Expansion=无限建造区域
     Builder_Bundle=建造捆绑包
     Sandbox_Bundle=沙盒捆绑包
     Full_Bundle=完整捆绑包
@@ -234,13 +234,13 @@
     Buy_Product=购买：%product% %price%
     
     Cannot_Use_Cheats_In_Career=作弊选项仅能在“沙盒模式”的世界中使用
-    Get_Infinite_Build_Area_Button=解锁无限大的蓝图
+    Get_Infinite_Build_Area_Button=解锁无限建造区域
     Get_Cheats_Expansion_Button=解锁作弊功能
 
     Purchase_Thanks_Msg=购买：%product%
     Purchase_Thanks_Msg=
     Purchase_Thanks_Msg=多谢惠顾！
-    Purchase_Thanks_Msg=现在去探索星球吧！
+    Purchase_Thanks_Msg=现在去探索宇宙吧！
 
     Owned=%product% <color=grey><size=35>[已拥有]</size></color>
     
@@ -290,7 +290,7 @@
     Anti_Aliasing=抗锯齿：
 
 [Cheats]
-    Infinite_Build_Area_Name=无限大的蓝图
+    Infinite_Build_Area_Name=无限建造区域
     Part_Clipping_Name=部件可堆叠
     Infinite_Fuel_Name=无尽的燃料
     No_Atmospheric_Drag_Name=无大气摩擦
@@ -301,7 +301,7 @@
     Refill_Fuel_Tanks=加注油箱
     
     Unlock_Cheats_Button=激活作弊
-    Unlock_Cheats_Warning=激活作弊选项将会把您的挑战世界转变为沙盒世界
+    Unlock_Cheats_Warning=激活作弊选项将会把此存档从挑战模式转变为沙盒模式
     Unlock_Cheats_Warning=
     Unlock_Cheats_Warning=这项更改是不可逆的
     Unlock_Cheats_Warning=
@@ -693,9 +693,9 @@
     Ganymede{0}=木卫三（盖尼米得）
     Io{0}=木卫一（伊奥）
     Callisto{0}=木卫四（卡里斯托）
-    Near_Earth_Asteroid{0}=小行星
-    Near_Earth_Asteroid{1}=小行星
-    Near_Earth_Asteroid{2}=小行星
+    Near_Earth_Asteroid{0}=近地小行星
+    Near_Earth_Asteroid{1}=近地小行星
+    Near_Earth_Asteroid{2}=近地小行星
 
 [Landmarks]
     Sea_of_Tranquility=静海
