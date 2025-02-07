@@ -286,7 +286,7 @@
     Menu_Scale=界面尺寸：
     Menu_Opacity=不透明度：
     Shakes_Name=镜头抖动：
-    Orbit_Line_Count=轨道数量：
+    Orbit_Line_Count=轨道线数量：
     Anti_Aliasing=抗锯齿：
 
 [Cheats]
@@ -301,7 +301,7 @@
     Refill_Fuel_Tanks=加注油箱
     
     Unlock_Cheats_Button=激活作弊
-    Unlock_Cheats_Warning=激活作弊选项将会把此存档从挑战模式转变为沙盒模式
+    Unlock_Cheats_Warning=激活作弊功能将使当前存档变为沙盒模式
     Unlock_Cheats_Warning=
     Unlock_Cheats_Warning=这项更改是不可逆的
     Unlock_Cheats_Warning=
@@ -323,7 +323,7 @@
     Challenges_Button=挑战：%complete%/%total%
     Challenges_Title=挑战：
 
-    Challenges_Completed=<size=55>已完成挑战：</size>
+    Challenges_Completed=<size=55>挑战已完成：</size>
     Challenges_Completed=%challenge%
 
     Funds_Text=资金：%funds%
@@ -549,8 +549,8 @@
     Other_Parts=其他
 
 [Part Names]
-    Capsule_Name{0}=载人仓
-    Capsule_Name{1}=载人仓
+    Capsule_Name{0}=太空舱
+    Capsule_Name{1}=太空舱
     Probe_Name{0}=探测器
     Probe_Name{1}=探测器
     Parachute_Name{0}=降落伞
@@ -608,7 +608,7 @@
     Fuel_Pipe_Name{1}=输油管
 
 [Part Descriptions]
-    Capsule_Description=小型载人仓，可承载一名宇航员
+    Capsule_Description=小型太空舱，可承载一名宇航员
     Probe_Description=无人探测器，常用于单程任务
     Parachute_Description=用于着陆的降落伞
     Fuel_Tank_Description=装载液态燃料和液态氧气的燃料箱
@@ -633,7 +633,8 @@
     Docking_Port_Description=用于将两个卫星或其他物体连接在一起的对接口
     Heat_Shield_Description=用于重返大气层的耐热防护层
     Fuel_Pipe_Description=用于传输燃料的管道
-    Booster_Description=仅能启动一次，拥有极高的可信任度但低效率
+    Booster_Description=拥有极高推力但低效率
+    Booster_Description=一旦点火则无法关闭或调节推力
 
 [Modules]
     Magnet_Force=磁力：%value%kN
@@ -788,7 +789,7 @@
     Landed_At_Landmark=着陆于%planet{1}%表面的%landmark{2}%
 
     Escaped_SOI=离开%planet{1}%的引力范围
-    Docked_Suborbital=%planet{1}%的亚轨道轨迹列表
+    Docked_Suborbital=对接于%planet{1}%的亚轨道
 
     Docked_Orbit_Low=对接于%planet{1}%的低轨道
     Docked_Orbit_Transfer=对接于%planet{1}%的转移轨道
@@ -799,7 +800,7 @@
 
     Recover_Home=安全降落于%planet{1}%
     Landed_At_Landmark__Short=降落于%planet{1}%的表面
-    Landed_At_Landmark__Short=位置：%landmark%
+    Landed_At_Landmark__Short=- %landmark% -
 
 [Sharing]
     Share_Button=分享蓝图
