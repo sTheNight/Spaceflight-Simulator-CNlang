@@ -298,7 +298,7 @@
     No_Gravity_Name=无重力模式
     No_Heat_Damage_Name=无高温热损
     No_Burn_Marks_Name=无灼烧痕迹
-    Refill_Fuel_Tanks=加注油箱
+    Refill_Fuel_Tanks=补充燃料
     
     Unlock_Cheats_Button=激活作弊
     Unlock_Cheats_Warning=激活作弊功能将使当前存档变为沙盒模式
@@ -470,7 +470,7 @@
     End_Navigation=取消目标
     Focus=设为焦点
     Unfocus=取消焦点
-    Switch_To=切换视角
+    Switch_To=切换控制
     Track=跟随视角
     Stop_Tracking=取消跟随
 
