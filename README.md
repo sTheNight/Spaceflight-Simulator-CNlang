@@ -4,6 +4,12 @@
 
 本汉化包使用 [MIT License](#license) 进行分发，因此我们允许您进行任意的修改，仅需注明原作者即可。
 
+## 鸣谢
+
+[由风：SFS简中语言包](https://gitee.com/YouFeng11/SFS-zh-CN-Translation)
+
+以及你……
+
 ## License
 
 ```
