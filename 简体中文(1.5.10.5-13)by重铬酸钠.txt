@@ -736,7 +736,6 @@
     ReachLowEarthOrbit_Title=抵达地球低轨道
     ReachLowEarthOrbit=到达地球低轨道并安全降落
 
-
     ReachHighEarthOrbit_Title=抵达地球高轨道
     ReachHighEarthOrbit=到达地球高轨道并安全降落
 
@@ -819,4 +818,3 @@
     Downloading_Message=下载中…
     Download_Fail=下载蓝图失败
     Sharing_Connect_Fail=无法连接分享服务器
-# 可以重复定义同一个键值对用于多行显示
