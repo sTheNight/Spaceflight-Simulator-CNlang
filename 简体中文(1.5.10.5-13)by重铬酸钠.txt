@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-13(*)
+# 汉化包版本：1.5.10.5-13(2024/02/12)
 # 适用版本：1.5.10.5
 # 更新日志：详见 sfscn.project.na2cr2o7.icu/changelog
 #
@@ -358,7 +358,7 @@
     Missing_Capsule=你的火箭没有控制中心
     Missing_Parachute=你的火箭没有降落伞
     Missing_Heat_Shield=你的火箭没有隔热罩
-    Too_Heavy=你的火箭太重了导致无法发射，请使用推力更大的引擎或减轻重量
+    Too_Heavy=你的火箭太重了导致无法发射，请使用推力更大的引擎亦或者减轻重量
     Launch_Anyway_Button=仍然发射
     Missing_Fuel_Popup=没有燃料来源
 
@@ -368,8 +368,8 @@
 
     Example_Rockets_OpenMenu=示例火箭
     Basic_Rocket=基础火箭
-    Stages=分阶火箭
-    Ideal_Stages=理想型火箭
+    Stages=二级火箭
+    Ideal_Stages=三级火箭
     Lander=登月器
 
 [Map]
@@ -538,10 +538,10 @@
 
 [Part Categories]
     Basic_Parts=基础
-    Six_Wide_Parts=较大(6格)
-    Eight_Wide_Parts=大(8格)
-    Ten_Wide_Parts=巨大(10格)
-    Twelve_Wide_Parts=特大(12格)
+    Six_Wide_Parts=中型（6格）
+    Eight_Wide_Parts=大型（8格）
+    Ten_Wide_Parts=超大（10格）
+    Twelve_Wide_Parts=巨大（12格）
     Engine_Parts=引擎
     Aerodynamics_Parts=空气动力
     Fairings_Parts=整流罩
@@ -610,28 +610,28 @@
 [Part Descriptions]
     Capsule_Description=小型太空舱，可承载一名宇航员
     Probe_Description=无人探测器，常用于单程任务
-    Parachute_Description=用于着陆的降落伞
-    Fuel_Tank_Description=装载液态燃料和液态氧气的燃料箱
+    Parachute_Description=用于着陆时减速的降落伞
+    Fuel_Tank_Description=存储了液态燃料和液态氧气的燃料箱
     Separator_Description=垂直分离器，用于空中分离阶段
     Side_Separator_Description=侧分离器，用于分离侧助推器
-    Landing_Leg_Description=可伸缩的腿，用于在卫星和行星表面着陆
-    Structural_Part_Description=轻质但强悍的钢架
+    Landing_Leg_Description=可伸缩的着陆腿，用于在卫星或行星表面着陆
+    Structural_Part_Description=轻质但坚固的钢架
     Hawk_Engine_Description=高推力低效率的引擎，通常用于火箭的第一阶段
     Titan_Engine_Description=高推力低效率的引擎，通常用于火箭的第一阶段
-    Valiant_Engine_Description=高效率低推力的引擎，当不需要优先考虑大推力时使用
-    Frontier_Engine_Description=高效率低推力的引擎，当不需要优先考虑大推力时使用
+    Valiant_Engine_Description=高效率低推力的引擎，用于低推力需求的太空任务
+    Frontier_Engine_Description=高效率低推力的引擎，用于低推力需求的太空任务
     Kolibri_Engine_Description=用于着陆器的微型引擎
     Ion_Engine_Description=效率极高的低推力引擎
     RCS_Thruster_Description=一组小型定向推进器，常用于对接
-    Aerodynamic_Nose_Cone_Description=一种空气动力学鼻锥，用于改善侧助推器的空气动力性能
-    Aerodynamic_Fuselage_Description=空气动力机身，用于覆盖引擎
+    Aerodynamic_Nose_Cone_Description=空气动力学鼻锥，用于改善侧助推器的空气动力学性能
+    Aerodynamic_Fuselage_Description=空气动力机身，用于包裹发动机以优化空气动力学性能
     Fairing_Description=用于封装卫星或着陆器的空气动力学整流罩
     Battery_Description=用于储蓄电力的电池
     Solar_Panel_Description=太阳能电池板，在展开时产生电力
-    RTG_Description=放射性同位素热电机，简称RTG，可产生电力
-    Rover_Wheel_Description=用于行驶在行星表面的轮子
-    Docking_Port_Description=用于将两个卫星或其他物体连接在一起的对接口
-    Heat_Shield_Description=用于重返大气层的耐热防护层
+    RTG_Description=放射性同位素热电机（RTG），可产生电力
+    Rover_Wheel_Description=用于在行星表面行驶的轮子
+    Docking_Port_Description=用于将两个航天器连接在一起的对接口
+    Heat_Shield_Description=用于载入大气层时的耐热防护层
     Fuel_Pipe_Description=用于传输燃料的管道
     Booster_Description=拥有极高推力但低效率
     Booster_Description=一旦点火则无法关闭或调节推力
@@ -699,33 +699,35 @@
     Near_Earth_Asteroid{2}=近地小行星
 
 [Landmarks]
+    # 月球地标
     Sea_of_Tranquility=静海
     Sea_of_Serenity=澄海
     Ocean_of_Storms=风暴洋
     Copernicus_Crater=哥白尼环形山
     Tycho_Crater=第谷环形山
-
-    Olympus_Mons=奥林匹斯山
-    Valles_Marineris=水手号谷
-    Gale_Crater=盖尔撞击坑
-    Hellas_Planitia=希腊平原
-    Arcadia_Planitia=阿耳卡狄亚平原
+    # 火星地标
     Utopia_Planitia=乌托邦平原
+    Olympus_Mons=奥林匹斯山
+    Arcadia_Planitia=阿耳卡狄亚平原
+    Gale_Crater=盖尔撞击坑
+    Hellas_Planitia=赫拉斯盆地
+    Valles_Marineris=水手号谷
     Jezero_Crater=耶泽罗撞击坑
-
-    Atalanta_Planitia=阿塔兰忒平原
+    # 金星地标
+    Atalanta_Planitia=亚特兰大平原
     Lavinia_Planitia=拉维尼亚平原
-
-    Caloris_Planitia=卡洛里盆地
-    Borealis_Planitia=北极平原
     Maxwell_Montes=麦克斯韦山脉
+    # 水星地标
+    Caloris_Planitia=卡洛里盆地
+    Borealis_Planitia=北方平原
+    # ↑没有找到主流 wiki 给的译名，遂用国家天文科学数据中心的“北方平原”
 
 [Challenges]
     Liftoff_Title=升空
     Liftoff=升空并安全降落
 
     Reach10km_Title=抵达10千米
-    Reach10km=到达10千米并安全降落
+    Reach10km=到达10千米高处并安全降落
 
     ReachSpace_Title=抵达太空
     ReachSpace=到达%height%后再入大气层并安全降落
@@ -734,28 +736,28 @@
     Land100kmDownrange=降落于距发射台100千米外的地方
 
     ReachLowEarthOrbit_Title=抵达地球低轨道
-    ReachLowEarthOrbit=到达地球低轨道并安全降落
+    ReachLowEarthOrbit=进入地球低轨道并安全降落
 
     ReachHighEarthOrbit_Title=抵达地球高轨道
-    ReachHighEarthOrbit=到达地球高轨道并安全降落
+    ReachHighEarthOrbit=进入地球高轨道并安全降落
 
     MoonOrbit_Title=月球轨道
-    MoonOrbit=被月球俘获并安全返回
+    MoonOrbit=被月球俘获至低轨道并安全返回
 
     MoonTour_Title=月球之旅
-    MoonTour=到达月球三个不同的地方并安全返回
+    MoonTour=到达月球三个不同的地标并安全返回
 
     AsteroidImpact_Title=撞击小行星
     AsteroidImpact=以大于200米每秒的速度撞向小行星表面
 
-    MarsGrandTour_Title=火星巡回赛
+    MarsGrandTour_Title=火星大巡游
     MarsGrandTour=在一次飞行期间内着陆于火星、火卫一和火卫二上并安全返回
 
     VenusLanding_Title=登陆金星
-    VenusLanding=穿过厚厚的大气层，着陆于金星表面
+    VenusLanding=穿过浓厚的大气层，着陆于金星表面
 
-    VenusReturn_Title=金星往返
-    VenusReturn=着陆于金星表面，然后穿过厚厚的大气层并安全返回
+    VenusReturn_Title=往返金星
+    VenusReturn=成功着陆于金星表面，然后穿过浓厚的大气层并安全返回
 
     MercuryLanding_Title=登陆水星
     MercuryLanding=着陆于水星表面
@@ -772,22 +774,21 @@
     Reached_Karman_Line=越过了卡门线，离开了大气层，到达了太空
     Survived_Reentry=再入%planet{3}%大气层，最大温度%temperature%
 
-    Reached_Low_Orbit=到达%planet{0}%的低轨道
-    Reached_High_Orbit=到达%planet{0}%的高轨道
+    Reached_Low_Orbit=进入%planet{0}%的低轨道
+    Reached_High_Orbit=进入%planet{0}%的高轨道
     Descend_Low_Orbit=降至%planet{0}%的低轨道
     Capture_Low_Orbit=被%planet{0}%俘获至其低轨道
     Capture_High_Orbit=被%planet{0}%俘获至其高轨道
 
     Entered_Lower_Atmosphere=进入%planet{3}%的低层大气
-    Entered_Upper_Atmosphere=进入%planet{3}%的上层大气
+    Entered_Upper_Atmosphere=进入%planet{3}%的高层大气
     Left_Lower_Atmosphere=进入%planet{3}%的高层大气
-    Left_Upper_Atmosphere=离开%planet{3}%的大气层
+    Left_Upper_Atmosphere=脱离%planet{3}%的大气层
 
     Landed=着陆于%planet{1}%表面
     Entered_SOI=进入%planet{1}%引力范围
     Landed_At_Landmark=着陆于%planet{1}%表面的%landmark{2}%
-
-    Escaped_SOI=离开%planet{1}%的引力范围
+    Escaped_SOI=脱离%planet{1}%的引力范围
     Docked_Suborbital=对接于%planet{1}%的亚轨道
 
     Docked_Orbit_Low=对接于%planet{1}%的低轨道
@@ -797,7 +798,7 @@
     Docked_Surface=对接于%planet{1}%的表面
     Crashed_Into_Terrain=坠毁于%planet{1}%的表面
 
-    Recover_Home=安全降落于%planet{1}%
+    Recover_Home=安全返回%planet{1}%
     Landed_At_Landmark__Short=降落于%planet{1}%的表面
     Landed_At_Landmark__Short=- %landmark% -
 
@@ -818,3 +819,4 @@
     Downloading_Message=下载中…
     Download_Fail=下载蓝图失败
     Sharing_Connect_Fail=无法连接分享服务器
+# 可以重复定义同一个键值对用于多行显示
