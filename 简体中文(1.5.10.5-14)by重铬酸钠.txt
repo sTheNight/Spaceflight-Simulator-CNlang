@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-13(2025/02/12)
+# 汉化包版本：1.5.10.5-14(*)
 # 适用版本：1.5.10.5
 # 更新日志：详见 sfscn.project.na2cr2o7.icu/changelog
 #
@@ -358,7 +358,7 @@
     Missing_Capsule=你的火箭没有控制中心
     Missing_Parachute=你的火箭没有降落伞
     Missing_Heat_Shield=你的火箭没有隔热罩
-    Too_Heavy=你的火箭太重了导致无法发射，请使用推力更大的引擎亦或者减轻重量
+    Too_Heavy=你的火箭太重了导致无法发射，请使用推力更大的引擎亦或是减轻重量
     Launch_Anyway_Button=仍然发射
     Missing_Fuel_Popup=没有燃料来源
 
@@ -478,17 +478,17 @@
     Default_Rocket_Name=未命名火箭
     No_Control_Msg=失控单元
 
-[Timewarp]
-    Msg_Timewarp_Speed=时间倍速：%speed%x
-    
-    Cannot_Timewarp_Below=不能在%height%之下进行时间加速
-    Cannot_Timewarp_While_Moving_On_Surface=在星球表面上移动时不能进行时间加速
-    Cannot_Timewarp_While_Accelerating=在火箭加速时无法进行时间加速
-    Cannot_Use_Part_While_Timewarping=在时间加速时不能使用%part{1}%
-    Cannot_Turn_While_Timewarping=不能在时间加速时转向
-    Cannot_Timewarp_Below_Basic=不能在%height%之下进行时间加速
+[Timewarp] # DONE
+    Msg_Timewarp_Speed=时间加速：%speed%倍
 
-    Timewarp_To_Button=加速时间到此处
+    Cannot_Timewarp_Below_Basic=无法在%height%之下进行时间加速
+    Cannot_Timewarp_Below=无法在%height%之下进行%speed%倍时间加速
+    Cannot_Timewarp_While_Moving_On_Surface=无法在星球表面移动时进行%speed%倍时间加速
+    Cannot_Timewarp_While_Accelerating=在火箭加速时，时间加速不能超过%speed%倍
+    Cannot_Use_Part_While_Timewarping=在时间加速时不能使用%part{1}%
+    Cannot_Turn_While_Timewarping=无法在时间加速时转向
+
+    Timewarp_To_Button=时间加速至此处
 
 [Units]
     Thrust_To_Weight_Ratio=推重比：%value%
@@ -819,4 +819,3 @@
     Downloading_Message=下载中…
     Download_Fail=下载蓝图失败
     Sharing_Connect_Fail=无法连接分享服务器
-# 可以重复定义同一个键值对用于多行显示
