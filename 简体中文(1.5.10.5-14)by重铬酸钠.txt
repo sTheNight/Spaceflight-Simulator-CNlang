@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.5-14(*)
+# 汉化包版本：1.5.10.5-14(2025/04/22)
 # 适用版本：1.5.10.5
 # 更新日志：详见 sfscn.project.na2cr2o7.icu/changelog
 #
@@ -50,20 +50,15 @@
     Exit_To_Main_Menu=返回菜单
 
 [Main Menu]
-    Development_Preview=开发预览
-    Development_Preview_Explanation=开发预览展示了我们的未来更新计划
-
-    First_Time_Playing_Question=第一次游玩 Spaceflight Simulator 吗？
-
-    First_Time_Playing_Yes=是的
-    First_Time_Playing_No=曾经玩过
-
     Play=开始游戏
 
     Video_Tutorials_OpenButton=视频教程
     Video_Orbit=入轨教程 <size=25><color=grey>[GFW]</color></size>
     Video_Moon=登月教程 <size=25><color=grey>[GFW]</color></size>
     Video_Dock=对接教程 <size=25><color=grey>[GFW]</color></size>
+
+    Development_Preview=开发预览
+    Development_Preview_Explanation=开发预览展示了我们的未来更新计划
 
     Community_OpenButton=游戏社区
     Community_Youtube=Youtube <size=25><color=grey>[GFW]</color></size>
@@ -107,6 +102,10 @@
     Credits_Text=<size=35>QQ群：599692426</size>
     Credits_Text=<size=35>QQ频道：w998o15r2i</size>
 
+    First_Time_Playing_Question=第一次游玩 Spaceflight Simulator 吗？
+    First_Time_Playing_Yes=是的
+    First_Time_Playing_No=曾经玩过
+
     Update_Available=有新版本发布了！
     Update_Available=
     Update_Available=当前版本：%old%
@@ -129,12 +128,6 @@
     Create_New_World_Button=新建世界
     World_Delete=是否删除此世界？
 
-    Allow_Cheats_Name=允许作弊：%value%
-    Allow_Cheats_Label=允许作弊
-
-    Allow_Quicksaves_Name=允许存档：%value%
-    Allow_Quicksaves_Label=允许存档
-
     Create_World_Title=世界名称
     Default_World_Name=新的世界
     Select_Solar_System=选择世界初始星系
@@ -146,6 +139,18 @@
 
     Default_Solar_System=太阳系（默认）
     Custom_Solar_System=%name%（自定义）
+
+    World_Mode_Name=模式：%value%
+    Mode_Sandbox=沙盒模式
+    Mode_Challenge=挑战模式
+    Mode_Career=生涯模式
+
+    Allow_Cheats_Name=允许作弊：%value%
+    Allow_Cheats_Label=允许作弊
+
+    Allow_Quicksaves_Name=允许存档：%value%
+    Allow_Quicksaves_Label=允许存档
+
     World_Difficulty_Name=难度：%value%
     Difficulty_Normal=默认
     Difficulty_Hard=困难
@@ -154,11 +159,6 @@
     Last_Played=上次游玩：%value%前
     Just_Played=上次游玩：刚刚
     Time_Played=游玩时长：%value%
-
-    World_Mode_Name=模式：%value%
-    Mode_Career=生涯模式
-    Mode_Sandbox=沙盒模式
-    Mode_Challenge=挑战模式
 
 [World Create Menu]
     World_Create_Title=创建世界
@@ -184,7 +184,6 @@
     Save_Blueprint=保存蓝图
     Load_Blueprint=加载蓝图
     Cannot_Save_Empty_Build=无法保存空蓝图
-    Import=导入
 
     Quicksaves_Menu_Title=存档
     Unnamed_Quicksave=未命名存档
@@ -193,13 +192,14 @@
 
     Save=保存
     Load=加载
+    Import=导入
     Delete=删除
     Rename=重命名
+    Delete_File_With_Type=你确定要删除%filetype{1}%“%filename%”吗
 
     Saving_In_Progress=保存中…
     Loading_In_Progress=加载中…
     Importing_In_Progress=导入中…
-    Delete_File_With_Type=你确定要删除%filetype{1}%“%filename%”吗
 
     Blueprint{0}=蓝图
     Blueprint{1}=蓝图
@@ -208,11 +208,11 @@
     Quicksave{1}=存档
     Quicksave{2}=存档
 
-    File_Already_Exists=该%filetype{1}%已存在
+    File_Already_Exists=该同名%filetype{1}%已存在
     Overwrite_File=覆盖原%filetype{1}%
     New_File=重命名%filetype{1}%并保存
 
-    Load_Failed=无法在%filepath%找到“%filetype{1}%”
+    Load_Failed=无法从%filepath%加载%filetype{1}%
 
 [Purchasing]
     Open_Shop_Menu=游戏拓展
@@ -227,15 +227,28 @@
     Sandbox_Bundle=沙盒捆绑包
     Full_Bundle=完整捆绑包
     Upgrade_To_Full_Bundle=升级到完整捆绑包
+    Mac_Full_Version=完整版
 
-    More_Parts=更多部件......
-    More_Skins=更多皮肤......
+    Not_All_Parts_Are_Owned=并非所有部件都已拥有
+    Not_All_Parts_Are_Owned=禁用所有未解锁的部件
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=查看部件扩展包？
 
-    Buy_Product=购买：%product% %price%
-    
+    View_Part_Expansion=查看部件拓展
+
+    More_Parts=查看部件拓展包
+    More_Skins=查看纹理拓展包
     Cannot_Use_Cheats_In_Career=作弊选项仅能在“沙盒模式”的世界中使用
     Get_Infinite_Build_Area_Button=解锁无限建造区域
     Get_Cheats_Expansion_Button=解锁作弊功能
+
+    Buy_Product=购买：%product% %price%
+
+    Timed_Sale_Text=%product_name% -%sale_percent%
+    Timed_Sale_Text=%time_left%
+
+    Time_Upgrade_Text=升级到%product_name% -%sale_percent%
+    Time_Upgrade_Text=%time_left%
 
     Purchase_Thanks_Msg=购买：%product%
     Purchase_Thanks_Msg=
@@ -244,19 +257,12 @@
 
     Owned=%product% <color=grey><size=35>[已拥有]</size></color>
     
-    Time_Upgrade_Text=升级到%product_name% -%sale_percent%
-    Time_Upgrade_Text=%time_left%
-
     Restore_Open=恢复购买
-    
-    View_Part_Expansion=查看部件拓展
-    
-    Timed_Sale_Text=%product_name% -%sale_percent%
-    Timed_Sale_Text=%time_left%
 
     PartsExpansion_Tanks=各式各样的油箱！
     PartsExpansion_Engines=还有重型引擎！
     PartsExpansion_Parts=以及各种形状、尺寸的部件！
+
     PartsExpansion_Build=给您带来更大的创作空间
     PartsExpansion_Build=让您的想法得以实现！
 
@@ -268,14 +274,27 @@
     PlanetsExpansion_Jupiter=探索木星及其四个卫星！
     PlanetsExpansion_Callisto=从木卫四布满火山口的表面开始！
     PlanetsExpansion_Europa=再到木卫二的广阔冰原！
+
     PlanetsExpansion_Conclusion=遥远的世界正在等待着你
     PlanetsExpansion_Conclusion=探索他们吧！
-    
-    Mac_Full_Version=完整版
-    Not_All_Parts_Are_Owned=并非所有部件都已拥有
-    Not_All_Parts_Are_Owned=禁用所有未解锁的部件
-    Not_All_Parts_Are_Owned=
-    Not_All_Parts_Are_Owned=查看部件扩展包？
+
+[Sharing]
+    Share_Button=分享蓝图
+    Upload_Blueprint_PC=上传蓝图
+    Download_Blueprint_PC=下载蓝图
+    Share_Button_PC=分享
+    Download_Confirm=下载
+    URL_Field_TextBox=蓝图链接
+    Empty_Upload=无法上传空蓝图
+    Uploading_Message=上传中…
+    Upload_Fail=上传蓝图失败
+    URL_Invalid=无效的链接
+    Copied_URL_To_Clipboard=已将链接复制到剪切板
+    Sharing_Enter_Prompt=选择蓝图
+    Confirm_Download_Button=下载蓝图
+    Downloading_Message=下载中…
+    Download_Fail=下载蓝图失败
+    Sharing_Connect_Fail=无法连接分享服务器
 
 [Settings Mobile]
     Music_Name=背景音乐：
@@ -291,7 +310,7 @@
 
 [Cheats]
     Infinite_Build_Area_Name=无限建造区域
-    Part_Clipping_Name=部件可堆叠
+    Part_Clipping_Name=部件可重叠
     Infinite_Fuel_Name=无尽的燃料
     No_Atmospheric_Drag_Name=无大气摩擦
     No_Collision_Damage_Name=无撞击损伤
@@ -299,8 +318,8 @@
     No_Heat_Damage_Name=无高温热损
     No_Burn_Marks_Name=无灼烧痕迹
     Refill_Fuel_Tanks=补充燃料
-    
     Unlock_Cheats_Button=激活作弊
+    
     Unlock_Cheats_Warning=激活作弊功能将使当前存档变为沙盒模式
     Unlock_Cheats_Warning=
     Unlock_Cheats_Warning=这项更改是不可逆的
@@ -311,31 +330,23 @@
     Tut_Drag_And_Drop=拖放部件
     Tut_Drag_And_Drop=以建造你的火箭
 
-    Tut_Part_Info=点击查看
-    Tut_Part_Info=部件信息
+    Tut_Part_Info=点击查看部件信息
 
-    Tut_Use_Part=点击部件以使用它们
+    Tut_Use_Part=点击部件来使用它们
     Tut_Ignition=点火！
     Tut_Throttle=调整油门
     
 [Hub]
+    Funds_Text=资金：%funds%
+    Go_To_Space_Center=航空中心
+    Exit_To_Space_Center=回到航空中心
+    Research_And_Development=研究与发展 %complete%/%total%
     Challenges_Info=挑战：%complete%/%total%
     Challenges_Button=挑战：%complete%/%total%
     Challenges_Title=挑战：
 
     Challenges_Completed=<size=55>挑战已完成：</size>
     Challenges_Completed=%challenge%
-
-    Funds_Text=资金：%funds%
-    Go_To_Space_Center=航空中心
-    Exit_To_Space_Center=回到航空中心
-    Research_And_Development=研究与发展 %complete%/%total%
-    
-[Failure menu]
-    Failure_Cause=失败原因：
-    Failure_Crash_Into_Rocket=撞上了另一枚火箭
-    Failure_Crash_Into_Terrain=坠毁于%planet{1}%的表面
-    Failure_Burn_Up=再入时被烧毁
 
 [Build]
     Build_New_Rocket=新建火箭
@@ -358,11 +369,15 @@
     Missing_Capsule=你的火箭没有控制中心
     Missing_Parachute=你的火箭没有降落伞
     Missing_Heat_Shield=你的火箭没有隔热罩
-    Too_Heavy=你的火箭太重了导致无法发射，请使用推力更大的引擎亦或是减轻重量
-    Launch_Anyway_Button=仍然发射
     Missing_Fuel_Popup=没有燃料来源
 
-    Launch_Horizontally_Ask=请选择发射方式
+    Too_Heavy=你的火箭太重了导致无法发射
+    Too_Heavy=%mass%
+    Too_Heavy=%thrust%
+
+    Launch_Anyway_Button=仍然发射
+
+    Launch_Horizontally_Ask=请选择发射方向
     Launch_Horizontally_Confirm=水平发射
     Launch_Vertically_Confirm=垂直发射
 
@@ -401,6 +416,21 @@
     Velocity_Relative_Vertical=
     Velocity_Relative_Vertical=%speed%
 
+    Distance_Relative_Vertical=相对距离：
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
+    Angle_Vertical=角度：
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=高度（相对地面）：%height%
+    Height_Horizontal=海拔：%height%
+    Velocity_Horizontal=速度：%speed%
+    Velocity_Relative_Horizontal=相对速度：%speed%
+    Distance_Relative_Horizontal=相对距离：%distance%
+    Angle_Horizontal=角度：%angle% / %targetAngle%
+
     Relative_Velocity_Arrow=相对速度：
     Relative_Velocity_Arrow=%velocity%
 
@@ -412,22 +442,12 @@
     Forward_Velocity_Arrow=
     Forward_Velocity_Arrow=速度
     Forward_Velocity_Arrow=%velocity%
-    
-    Distance_Relative_Vertical=相对距离：
-    Distance_Relative_Vertical=
-    Distance_Relative_Vertical=%distance%
 
-    Angle_Vertical=角度：
-    Angle_Vertical=
-    Angle_Vertical=%angle% / %targetAngle%
-
-    Height_Terrain_Horizontal=高度（相对地面）：%height%
-    Height_Horizontal=高度：%height%
-    Velocity_Horizontal=速度：%speed%
-    Velocity_Relative_Horizontal=相对速度：%speed%
-    Distance_Relative_Horizontal=相对距离：%distance%
-
-    Angle_Horizontal=角度：%angle% / %targetAngle%
+[Failure menu]
+    Failure_Cause=失败原因：
+    Failure_Crash_Into_Rocket=撞上了另一枚火箭
+    Failure_Crash_Into_Terrain=坠毁于%planet{1}%的表面
+    Failure_Burn_Up=再入时被烧毁
 
 [End mission menu]
     Recover_Rocket=结束任务
@@ -438,6 +458,14 @@
     Debris_Destroy_Title=你确定要摧毁碎片吗?
     View_Mission_Log=航行日志
 
+    Restart_Mission_To_Launch_Warning=警告：
+    Restart_Mission_To_Launch_Warning=这会让你的进度回到发射前
+
+    Restart_Mission_To_Build_Warning=警告：
+    Restart_Mission_To_Build_Warning=这会让你的进度回到发射前
+
+    Restart_Mission_To_Launch=重新发射
+    Restart_Mission_To_Build=重新建造
     Revert_30_Secs=回溯三十秒
     Revert_3_Min=回溯三分钟
 
@@ -445,20 +473,6 @@
     End_Logs_Title=航行日志：
     Continue_To_Log=继续
     Back_To_Challenges=返回
-
-    Restart_Mission_To_Launch=重新发射
-
-    Restart_Mission_To_Launch_Warning=是否重新发射？
-    Restart_Mission_To_Launch_Warning=
-    Restart_Mission_To_Launch_Warning=警告：
-    Restart_Mission_To_Launch_Warning=这会让你的进度回到发射前
-
-    Restart_Mission_To_Build=重新建造
-
-    Restart_Mission_To_Build_Warning=是否重新建造？
-    Restart_Mission_To_Build_Warning=
-    Restart_Mission_To_Build_Warning=警告：
-    Restart_Mission_To_Build_Warning=这会让你的进度回到发射前
 
     Clear_Debris_Warning=清理碎片？
     Clear_Debris_Warning=
@@ -470,15 +484,15 @@
     End_Navigation=取消目标
     Focus=设为焦点
     Unfocus=取消焦点
-    Switch_To=切换控制
     Track=跟随视角
     Stop_Tracking=取消跟随
+    Switch_To=切换控制
 
 [Rocket]
     Default_Rocket_Name=未命名火箭
     No_Control_Msg=失控单元
 
-[Timewarp] # DONE
+[Timewarp]
     Msg_Timewarp_Speed=时间加速：%speed%倍
 
     Cannot_Timewarp_Below_Basic=无法在%height%之下进行时间加速
@@ -519,23 +533,6 @@
     Msg_No_Resource_Source=无%resource{1}%来源
     Msg_No_Resource_Left=剩余%resource{1}%不足
     
-[Part Pick Categories]
-    Part_Pick_Category_Aero=空气动力
-    Part_Pick_Category_Parachutes=降落伞
-    Part_Pick_Category_Engines=引擎
-    Part_Pick_Category_Structural=结构
-    Part_Pick_Category_Utility=实用
-    Part_Pick_Category_Control=控制器
-    Part_Pick_Category_Landing=着陆器
-    Part_Pick_Category_Electricity=电力
-    Part_Pick_Category_Fuel=油箱
-    Part_Pick_Category_Fairings=整流罩
-    Part_Pick_Category_Wheels=轮子
-    Part_Pick_Category_Docking=对接器
-    Part_Pick_Category_Heat_Protection=隔热罩
-    Part_Pick_Category_Staging=分离器
-    Part_Pick_Category_Mounts=底座
-
 [Part Categories]
     Basic_Parts=基础
     Six_Wide_Parts=中型（6格）
@@ -623,6 +620,10 @@
     Kolibri_Engine_Description=用于着陆器的微型引擎
     Ion_Engine_Description=效率极高的低推力引擎
     RCS_Thruster_Description=一组小型定向推进器，常用于对接
+
+    Booster_Description=拥有极高推力但低效率
+    Booster_Description=一旦点火则无法关闭或调节推力
+
     Aerodynamic_Nose_Cone_Description=空气动力学鼻锥，用于改善侧助推器的空气动力学性能
     Aerodynamic_Fuselage_Description=空气动力机身，用于包裹发动机以优化空气动力学性能
     Fairing_Description=用于封装卫星或着陆器的空气动力学整流罩
@@ -633,8 +634,6 @@
     Docking_Port_Description=用于将两个航天器连接在一起的对接口
     Heat_Shield_Description=用于载入大气层时的耐热防护层
     Fuel_Pipe_Description=用于传输燃料的管道
-    Booster_Description=拥有极高推力但低效率
-    Booster_Description=一旦点火则无法关闭或调节推力
 
 [Modules]
     Magnet_Force=磁力：%value%kN
@@ -669,6 +668,27 @@
     Msg_Parachute_Half_Deployed=降落伞半展开
     Msg_Parachute_Fully_Deployed=降落伞全展开
     Msg_Parachute_Cut=降落伞被切割
+
+[Part Pick Categories]
+    Part_Pick_Category_Aero=空气动力
+    Part_Pick_Category_Parachutes=降落伞
+    Part_Pick_Category_Engines=引擎
+    Part_Pick_Category_Structural=结构
+    Part_Pick_Category_Utility=实用
+    Part_Pick_Category_Control=控制器
+    Part_Pick_Category_Landing=着陆器
+    Part_Pick_Category_Electricity=电力
+
+    Part_Pick_Category_Fuel=油箱
+
+    Part_Pick_Category_Fairings=整流罩
+    Part_Pick_Category_Wheels=轮子
+    Part_Pick_Category_Docking=对接器
+
+    Part_Pick_Category_Heat_Protection=隔热罩
+
+    Part_Pick_Category_Staging=分离器
+    Part_Pick_Category_Mounts=底座
 
 [Planets]
     Sun{0}=太阳
@@ -765,7 +785,6 @@
     MercuryReturn_Title=水星往返
     MercuryReturn=着陆于水星表面并安全返回
 
-
     LandAndReturn_Title=登陆%planet{0}%
     LandAndReturn=着陆于%planet{0}%表面并安全返回
 
@@ -786,36 +805,23 @@
     Left_Upper_Atmosphere=脱离%planet{3}%的大气层
 
     Landed=着陆于%planet{1}%表面
-    Entered_SOI=进入%planet{1}%引力范围
-    Landed_At_Landmark=着陆于%planet{1}%表面的%landmark{2}%
-    Escaped_SOI=脱离%planet{1}%的引力范围
-    Docked_Suborbital=对接于%planet{1}%的亚轨道
 
+    Landed_At_Landmark=着陆与%planet{1}%的表面
+    Landed_At_Landmark=<size=55>位置：%landmark%</size>
+
+    Landed_At_Landmark__Short=降落于%planet{1}%的表面
+    Landed_At_Landmark__Short=- %landmark% -
+
+    Crashed_Into_Terrain=坠毁于%planet{1}%的表面
+
+    Entered_SOI=进入%planet{1}%引力范围
+    Escaped_SOI=脱离%planet{1}%的引力范围
+
+    Docked_Suborbital=对接于%planet{1}%的亚轨道
     Docked_Orbit_Low=对接于%planet{1}%的低轨道
     Docked_Orbit_Transfer=对接于%planet{1}%的转移轨道
     Docked_Orbit_High=对接于%planet{0}%的高轨道
     Docked_Escape=对接于%planet{1}%的逃逸轨迹
     Docked_Surface=对接于%planet{1}%的表面
-    Crashed_Into_Terrain=坠毁于%planet{1}%的表面
 
     Recover_Home=安全返回%planet{1}%
-    Landed_At_Landmark__Short=降落于%planet{1}%的表面
-    Landed_At_Landmark__Short=- %landmark% -
-
-[Sharing]
-    Share_Button=分享蓝图
-    Upload_Blueprint_PC=上传蓝图
-    Download_Blueprint_PC=下载蓝图
-    Share_Button_PC=分享
-    Download_Confirm=下载
-    URL_Field_TextBox=蓝图链接
-    Empty_Upload=无法上传空蓝图
-    Uploading_Message=上传中…
-    Upload_Fail=上传蓝图失败
-    URL_Invalid=无效的链接
-    Copied_URL_To_Clipboard=已将链接复制到剪切板
-    Sharing_Enter_Prompt=选择蓝图
-    Confirm_Download_Button=下载蓝图
-    Downloading_Message=下载中…
-    Download_Fail=下载蓝图失败
-    Sharing_Connect_Fail=无法连接分享服务器
