@@ -6,7 +6,7 @@
 
 ## 下载
 
- 您应前往[此处](https://sfscn.project.na2cr2o7.icu/)获取本汉化包。
+ 您应前往[此处](https://sfs.izako.cc/)获取本汉化包。
 
 ## 鸣谢
 
