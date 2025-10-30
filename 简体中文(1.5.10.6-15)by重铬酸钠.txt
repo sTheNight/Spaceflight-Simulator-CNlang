@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.5.10.6-14(2025/09/09)
+# 汉化包版本：1.5.10.6-15(2025/10/30)
 # 适用版本：1.5.10.6
 # 更新日志：详见 sfs.izako.cc/changelog
 #
@@ -806,7 +806,7 @@
 
     Landed=着陆于%planet{1}%表面
 
-    Landed_At_Landmark=着陆与%planet{1}%的表面
+    Landed_At_Landmark=着陆于%planet{1}%的表面
     Landed_At_Landmark=<size=55>位置：%landmark%</size>
 
     Landed_At_Landmark__Short=降落于%planet{1}%的表面
