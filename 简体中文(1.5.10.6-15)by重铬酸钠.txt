@@ -97,10 +97,6 @@
     Credits_Text=<size=35>译者：</size><size=60>重铬酸钠</size>
     Credits_Text=<size=35>汉化包发布页：sfs.izako.cc</size>
     Credits_Text=<size=35>采用 MIT License 分发，转载、二改请注明原作者</size>
-    Credits_Text=
-    Credits_Text=交流
-    Credits_Text=<size=35>QQ群：599692426</size>
-    Credits_Text=<size=35>QQ频道：w998o15r2i</size>
 
     First_Time_Playing_Question=第一次游玩 Spaceflight Simulator 吗？
     First_Time_Playing_Yes=是的
