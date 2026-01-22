@@ -98,6 +98,12 @@
     Credits_Text=
     Credits_Text=<Size=70> Ashton Mills </size>
     Credits_Text=<size=55> 作曲 </size>
+    Credits_Text=
+    Credits_Text=
+    Credits_Text=
+    Credits_Text=<size=35>译者：</size><size=60>重铬酸钠</size>
+    Credits_Text=<size=35>汉化包发布页：sfs.izako.cc</size>
+    Credits_Text=<size=35>采用 MIT License 分发，转载、二改请注明原作者</size>
 
     First_Time_Playing_Question=首次游玩 Spaceflight Simulator？
 
