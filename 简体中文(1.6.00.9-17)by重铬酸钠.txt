@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.6.00.9(2026/01/22)
+# 汉化包版本：1.6.00.9-17(2026/01/23)
 # 适用版本：1.6.00.9
 # 更新日志：详见 sfs.izako.cc/changelog
 #
@@ -618,7 +618,7 @@
     No_Control_Msg=失控单元
 
 [Timewarp]
-    Msg_Timewarp_Speed=Time acceleration %speed%x
+    Msg_Timewarp_Speed=时间倍速：%speed%倍
 
     Cannot_Timewarp_Below_Basic=无法在%height%之下进行时间加速
     Cannot_Timewarp_Below=无法在%height%之下进行%speed%倍时间加速
@@ -869,6 +869,10 @@
     Dione{1}=土卫四（狄俄涅）
     Dione{2}=土卫四（狄俄涅）
     Dione{3}=土卫四（狄俄涅）
+    Mimas{0}=土卫一（弥玛斯）
+    Mimas{1}=土卫一（弥玛斯）
+    Mimas{2}=土卫一（弥玛斯）
+    Mimas{3}=土卫一（弥玛斯）
     Uranus{0}=天王星
     Uranus{1}=天王星
     Uranus{2}=天王星
@@ -905,6 +909,10 @@
     Triton{1}=海卫一（特里同）
     Triton{2}=海卫一（特里同）
     Triton{3}=海卫一（特里同）
+    Naiad{0}=海卫二（娜伊亚德）
+    Naiad{1}=海卫二（娜伊亚德）
+    Naiad{2}=海卫二（娜伊亚德）
+    Naiad{3}=海卫二（娜伊亚德）
     Pluto{0}=冥王星
     Pluto{1}=冥王星
     Pluto{2}=冥王星
@@ -1011,6 +1019,9 @@
     Guttae=古泰
     Serenity_Chasma=宁静峡谷
     Mordor_Macula=魔多斑块
+
+    # 土卫一
+    Herschel_Crater=赫歇尔撞击坑
 
     # 冥王星
     Sputnik_Planitia=斯普特尼克平原
