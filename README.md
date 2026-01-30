@@ -6,10 +6,6 @@
 
 自 1.6.00.10 起，社区中文语言包已被吸纳进原版游戏，因此本仓库的语言包后续将主要偏向风格化并随缘更新。
 
-## 下载
-
- 您应前往[此处](https://sfs.izako.cc/)获取本汉化包。
-
 ## 鸣谢
 
  * [由风：SFS简中语言包](https://gitee.com/YouFeng11/SFS-zh-CN-Translation)
