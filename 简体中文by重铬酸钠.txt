@@ -99,8 +99,8 @@
     Credits_Text=
     Credits_Text=
     Credits_Text=
-    Credits_Text=<size=35>译者：</size><size=60>重铬酸钠</size>
-    Credits_Text=<size=35>汉化包发布页：sfs.izako.cc</size>
+    Credits_Text=<size=35>译者:</size><size=60>重铬酸钠</size>
+    Credits_Text=<size=35>汉化包发布页:sfs.izako.cc</size>
     Credits_Text=<size=35>采用 MIT License 分发，转载、二改请注明原作者</size>
 
     First_Time_Playing_Question=首次游玩 Spaceflight Simulator？
@@ -110,8 +110,8 @@
 
     Update_Available=有新的更新可用！
     Update_Available=
-    Update_Available=当前版本：%old%
-    Update_Available=最新版本：%new%
+    Update_Available=当前版本:%old%
+    Update_Available=最新版本:%new%
 
     Update_Confirm=更新
 
@@ -135,7 +135,7 @@
     Default_World_Name=新的世界
     Select_Solar_System=选择世界初始星系
 
-    Select_Solar_System__NotFound=无法找到此星系：
+    Select_Solar_System__NotFound=无法找到此星系:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
     Select_Solar_System__NotFound=选择新的星系
@@ -143,18 +143,18 @@
     Default_Solar_System=太阳系（默认）
     Custom_Solar_System=%name%（自定义）
 
-    World_Mode_Name=模式：%value%
+    World_Mode_Name=模式:%value%
     Mode_Sandbox=沙盒模式
     Mode_Challenge=挑战模式
     Mode_Career=生涯模式
 
-    Allow_Cheats_Name=允许作弊：%value%
+    Allow_Cheats_Name=允许作弊:%value%
     Allow_Cheats_Label=允许作弊
 
-    Allow_Quicksaves_Name=允许存档：%value%
+    Allow_Quicksaves_Name=允许存档:%value%
     Allow_Quicksaves_Label=允许存档
 
-    World_Difficulty_Name=难度：%value%
+    World_Difficulty_Name=难度:%value%
     Difficulty_Easy=简单
     Difficulty_Normal=默认
     Difficulty_Hard=困难
@@ -162,26 +162,26 @@
     Difficulty_Extreme=极难
     Difficulty_Realistic=真实
 
-    World_SolarSystem_Name=星系：%value%
+    World_SolarSystem_Name=星系:%value%
     
-    Last_Played=上次游玩：%value%前
-    Just_Played=上次游玩：刚刚
-    Time_Played=游玩时长：%value%
+    Last_Played=上次游玩:%value%前
+    Just_Played=上次游玩:刚刚
+    Time_Played=游玩时长:%value%
 
 [World Create Menu]
     World_Create_Title=创建世界
-    World_Name_Label=世界名称：
-    Solar_System_Label=选择星系：
-    Mode_Label=模式：
-    Difficulty_Label=难度：
+    World_Name_Label=世界名称:
+    Solar_System_Label=选择星系:
+    Mode_Label=模式:
+    Difficulty_Label=难度:
 
 [Teleport Menu]
     Teleport_Cheat=传送选项
     Teleport_Action=传送
-    Planet_Select=星体：
+    Planet_Select=星体:
     Surface_Teleport_Type=表面
     Orbit_Teleport_Type=轨道
-    Teleport_Longitude=经度：
+    Teleport_Longitude=经度:
     Teleport_Height=高度（%unit%）:
     Teleport_Orbit_Prograde=顺行
     Teleport_Orbit_Retrograde=逆行
@@ -253,7 +253,7 @@
     Get_Infinite_Build_Area_Button=解锁无限建造区域
     Get_Cheats_Expansion_Button=解锁作弊功能
 
-    Buy_Product=购买：%product% %price%
+    Buy_Product=购买:%product% %price%
 
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
@@ -261,7 +261,7 @@
     Time_Upgrade_Text=升级到%product_name% -%sale_percent%
     Time_Upgrade_Text=%time_left%
 
-    Purchase_Thanks_Msg=购买：%product%
+    Purchase_Thanks_Msg=购买:%product%
     Purchase_Thanks_Msg=
     Purchase_Thanks_Msg=多谢惠顾！
     Purchase_Thanks_Msg=现在去探索繁星吧！
@@ -300,8 +300,8 @@
     GoogleSignIn=登录
     GoogleSignOut=注销
     SignInForPurchaseRecovery=登录以找回购买内容
-    CurrentGoogleAcc=账号：%email%
-    RecoveredPurchases=已恢复的购买项目：
+    CurrentGoogleAcc=账号:%email%
+    RecoveredPurchases=已恢复的购买项目:
     PurchaseAddId=添加 ID
     PurchaseAlreadyRegistered=此 ID 已被注册
     OrderNotFound=未找到该购买记录，请确保 ID 输入正确
@@ -332,21 +332,21 @@
     Sharing_Connect_Fail=无法连接分享服务器
 
 [Settings Mobile]
-    Music_Name=背景音乐：
-    Sound_Name=游戏音效：
-    Screen_Rotation_Name=屏幕旋转：
-    FPS_Name=最大帧率：
-    Language_Name=语言：
-    Menu_Scale=界面尺寸：
-    Menu_Opacity=不透明度：
-    Shakes_Name=镜头抖动：
-    Orbit_Line_Count=轨道线数量：
-    Anti_Aliasing=抗锯齿：
+    Music_Name=背景音乐:
+    Sound_Name=游戏音效:
+    Screen_Rotation_Name=屏幕旋转:
+    FPS_Name=最大帧率:
+    Language_Name=语言:
+    Menu_Scale=界面尺寸:
+    Menu_Opacity=不透明度:
+    Shakes_Name=镜头抖动:
+    Orbit_Line_Count=轨道线数量:
+    Anti_Aliasing=抗锯齿:
     Set_Save_Location=设置保存位置
     Change_Save_Location=更改保存位置
     Open_Save_Location=打开保存位置
 
-    Current_Save_Location=当前保存位置：
+    Current_Save_Location=当前保存位置:
     Current_Save_Location=%path%
 
 [Cheats]
@@ -406,15 +406,15 @@
     Tut_No_Fuel_Source=燃料来源
 
 [Hub]
-    Funds_Text=资金：%funds%
+    Funds_Text=资金:%funds%
     Go_To_Space_Center=航空中心
     Exit_To_Space_Center=回到航空中心
     Research_And_Development=研究与发展 %complete%/%total%
-    Challenges_Info=挑战：%complete%/%total%
-    Challenges_Button=挑战：%complete%/%total%
-    Challenges_Title=挑战：
+    Challenges_Info=挑战:%complete%/%total%
+    Challenges_Button=挑战:%complete%/%total%
+    Challenges_Title=挑战:
 
-    Challenges_Completed=<size=55>挑战已完成：</size>
+    Challenges_Completed=<size=55>挑战已完成:</size>
     Challenges_Completed=%challenge%
 
     This_Is_Challenging_Game=这是一款富有挑战性的游戏，需要耐心和毅力
@@ -434,11 +434,11 @@
     Not_All_Parts_Owned=
     Not_All_Parts_Owned=查看完整版？
 
-    Symmetry_On=对称模式：开启
-    Symmetry_Off=对称模式：关闭
+    Symmetry_On=对称模式:开启
+    Symmetry_Off=对称模式:关闭
 
-    Interior_View_On=内部视图：开启
-    Interior_View_Off=内部视图：关闭
+    Interior_View_On=内部视图:开启
+    Interior_View_Off=内部视图:关闭
 
     Launch_Button=发射
     Move_Rocket_Button=整体移动
@@ -447,7 +447,7 @@
     Clear_Confirm=清除部件
     Auto_Detach_Capsule=自动分离指令舱
 
-    Warnings_Title=警告：
+    Warnings_Title=警告:
     Missing_Capsule=你的火箭没有控制中心
     Missing_Parachute=你的火箭没有降落伞
     Missing_Heat_Shield=你的火箭没有隔热罩
@@ -483,41 +483,41 @@
     RCS=RCS
     Rocket_Has_No_RCS=你的火箭没有安装 RCS
 
-    Height_Terrain_Vertical=高度（相对地面）：
+    Height_Terrain_Vertical=高度（相对地面）:
     Height_Terrain_Vertical=
     Height_Terrain_Vertical=%height%
 
-    Height_Vertical=海拔：
+    Height_Vertical=海拔:
     Height_Vertical=
     Height_Vertical=%height%
 
-    Velocity_Vertical=速度：
+    Velocity_Vertical=速度:
     Velocity_Vertical=
     Velocity_Vertical=%speed%
 
-    Velocity_Relative_Vertical=相对速度：
+    Velocity_Relative_Vertical=相对速度:
     Velocity_Relative_Vertical=
     Velocity_Relative_Vertical=%speed%
 
-    Distance_Relative_Vertical=相对距离：
+    Distance_Relative_Vertical=相对距离:
     Distance_Relative_Vertical=
     Distance_Relative_Vertical=%distance%
 
-    Angle_Vertical=角度：
+    Angle_Vertical=角度:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
 
-    Height_Terrain_Horizontal=高度（相对地面）：%height%
-    Height_Horizontal=海拔：%height%
-    Velocity_Horizontal=速度：%speed%
-    Velocity_Relative_Horizontal=相对速度：%speed%
-    Distance_Relative_Horizontal=相对距离：%distance%
-    Angle_Horizontal=角度：%angle% / %targetAngle%
+    Height_Terrain_Horizontal=高度（相对地面）:%height%
+    Height_Horizontal=海拔:%height%
+    Velocity_Horizontal=速度:%speed%
+    Velocity_Relative_Horizontal=相对速度:%speed%
+    Distance_Relative_Horizontal=相对距离:%distance%
+    Angle_Horizontal=角度:%angle% / %targetAngle%
 
-    Relative_Velocity_Arrow=相对速度：
+    Relative_Velocity_Arrow=相对速度:
     Relative_Velocity_Arrow=%velocity%
 
-    Side_Velocity_Arrow=侧向速度：
+    Side_Velocity_Arrow=侧向速度:
     Side_Velocity_Arrow=%velocity%
 
     Forward_Velocity_Arrow=距离
@@ -527,7 +527,7 @@
     Forward_Velocity_Arrow=%velocity%
 
 [Failure menu]
-    Failure_Cause=失败原因：
+    Failure_Cause=失败原因:
     Failure_Crash_Into_Rocket=撞上了另一枚火箭
     Failure_Crash_Into_The_Ocean=坠入海洋
     Failure_Burn_Up=再入大气层时烧毁
@@ -552,7 +552,7 @@
     Landed=着陆于%planet{1}%表面
 
     Landed_At_Landmark=着陆于%planet{1}%的表面
-    Landed_At_Landmark=<size=55>位置：%landmark%</size>
+    Landed_At_Landmark=<size=55>位置:%landmark%</size>
 
     Landed_At_Landmark__Short=降落于%planet{1}%的表面
     Landed_At_Landmark__Short=- %landmark% -
@@ -580,10 +580,10 @@
     Debris_Destroy_Title=你确定要摧毁碎片吗?
     View_Mission_Log=航行日志
 
-    Restart_Mission_To_Launch_Warning=警告：
+    Restart_Mission_To_Launch_Warning=警告:
     Restart_Mission_To_Launch_Warning=这会让你的进度回到上次发射之前
 
-    Restart_Mission_To_Build_Warning=警告：
+    Restart_Mission_To_Build_Warning=警告:
     Restart_Mission_To_Build_Warning=这会让你的进度回到上次发射之前
 
     Restart_Mission_To_Launch=重新发射
@@ -591,8 +591,8 @@
     Revert_30_Secs=回溯三十秒
     Revert_3_Min=回溯三分钟
 
-    End_Challenges_Title=已完成挑战：
-    End_Logs_Title=航行日志：
+    End_Challenges_Title=已完成挑战:
+    End_Logs_Title=航行日志:
     Continue_To_Log=继续
     Back_To_Challenges=返回
 
@@ -615,7 +615,7 @@
     No_Control_Msg=失控单元
 
 [Timewarp]
-    Msg_Timewarp_Speed=时间倍速：%speed%倍
+    Msg_Timewarp_Speed=时间倍速:%speed%倍
 
     Cannot_Timewarp_Below_Basic=无法在%height%之下进行时间加速
     Cannot_Timewarp_Below=无法在%height%之下进行%speed%倍时间加速
@@ -628,12 +628,12 @@
     Timewarp_To_Button=时间加速至此处
 
 [Units]
-    Thrust_To_Weight_Ratio=推重比：%value%
-    Mass=质量：%value%吨
+    Thrust_To_Weight_Ratio=推重比:%value%
+    Mass=质量:%value%吨
     Density=密度: %value%
-    Thrust=推力：%value%吨
-    Burn_Time=燃烧时间：%value%秒
-    Efficiency=效率：%value%比冲
+    Thrust=推力:%value%吨
+    Burn_Time=燃烧时间:%value%秒
+    Efficiency=效率:%value%比冲
     Mass_Unit=吨
     Meter_Unit=米
     Km_Unit=千米
@@ -651,7 +651,7 @@
 
 [Resource Uses]
     Resource_Bars_Title=%resource_name{0}%:
-    Info_Resource_Amount=%resource{0}%：%amount%
+    Info_Resource_Amount=%resource{0}%:%amount%
     Msg_No_Resource_Source=无%resource{1}%来源
     Msg_No_Resource_Left=剩余%resource{1}%不足
 
@@ -744,11 +744,11 @@
     Fuel_Pipe_Description=用于传输燃料的管道
 
 [Modules]
-    Magnet_Force=磁力：%value%kN
-    Torque_Module_Torque=扭矩：%value%kN
-    Separation_Force=分离力：%value%kN
+    Magnet_Force=磁力:%value%kN
+    Torque_Module_Torque=扭矩:%value%kN
+    Separation_Force=分离力:%value%kN
     
-    Max_Heat_Tolerance=耐热：%temperature%
+    Max_Heat_Tolerance=耐热:%temperature%
 
     State_On{0}=开启
     State_Off{0}=关闭
@@ -757,8 +757,8 @@
     Engine_On_Label=启用发动机
     Gimbal_On_Label=启用万向节
 
-    Booster_On=助推器：开启
-    Booster_Off=助推器：关闭
+    Booster_On=助推器:开启
+    Booster_Off=助推器:关闭
     Cannot_Ignite_Covered_Booster=无法点燃被遮挡的助推器
     Booster_Cannot_Be_Off=固体燃料助推器一旦点燃将无法关闭
 
@@ -773,7 +773,7 @@
     Detach_Edges_Label=分离边缘
     Adapt_To_Tanks_Label=适应油箱
 
-    Info_Parachute_Max_Height=最大展开高度：%height%
+    Info_Parachute_Max_Height=最大展开高度:%height%
     Msg_Cannot_Deploy_Parachute_In_Vacuum=无法在真空中展开降落伞
     Msg_Cannot_Deploy_Parachute_Above=无法在%height%之上展开降落伞
     Msg_Cannot_Fully_Deploy_Above=无法在%height%之上完全展开降落伞
@@ -1081,14 +1081,14 @@
 [Mod Loader]
     Mods_Button=模组
     Mods_Still_Loading=模组仍在加载中…
-    ModType_Label=类型：%type%
-    Version_Label=版本：%version%
+    ModType_Label=类型:%type%
+    Version_Label=版本:%version%
     CodeMod_Name=代码模组
     PartAssetPack_Name=部件资源包
     TexturePack_Name=材质资源包
     SolarSystemPack_Name=星系资源包
-    CodeModNotAllowedOnMobile=不支持的模组：由于移动端对自定义代码执行的限制，暂不支持包含自定义代码的模组
-    Author_Label=作者：%name%
+    CodeModNotAllowedOnMobile=不支持的模组:由于移动端对自定义代码执行的限制，暂不支持包含自定义代码的模组
+    Author_Label=作者:%name%
     Changes_Warning=是否立即重启游戏以使模组修改生效？
     Relaunch=重启
 
@@ -1097,13 +1097,13 @@
 
     Lost_Access_Mods=已失去对存储文件夹的访问权限
     Lost_Access_Mods=请重新使用同一文件夹以访问存档
-    Lost_Access_Mods=旧文件夹路径为：%path%
+    Lost_Access_Mods=旧文件夹路径为:%path%
 
     Set_ModsFolder_Continue=继续
 
-    Set_ModsFolder_Confirm_Copy=是否将存档从此处：
+    Set_ModsFolder_Confirm_Copy=是否将存档从此处:
     Set_ModsFolder_Confirm_Copy=%oldPath%
-    Set_ModsFolder_Confirm_Copy=复制到：
+    Set_ModsFolder_Confirm_Copy=复制到:
     Set_ModsFolder_Confirm_Copy=%newPath%
     Set_ModsFolder_Confirm_Copy=这会覆盖新存储位置的所有数据！具备破坏性
 
