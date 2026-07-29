@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.6.00.13-18(2026/01/29)
+# 汉化包版本：1.6.00.22-19(2026/07/29)
 #
 # 采用 MIT License 进行分发，参考副本如下：
 # 
@@ -222,8 +222,12 @@
 [Purchasing]
     Open_Shop_Menu=游戏拓展
     Open_Shop_Menu_2=打开商店
+
     Expansions_List_Title=拓展包
     Bundles_List_Title=捆绑包
+
+    View_Details=查看详细
+
     Parts_Expansion=部件拓展包
     Expand_View_Button=展开预览
     Redstone_Atlas_Pack=红石、宇宙神拓展包
@@ -311,6 +315,9 @@
 
     PurchaseNotConsumed=此购买项状态正常，无法找回
     PurchaseNotConsumed=请尝试使用常规的“恢复购买”选项
+
+    RestoredSuccessfully=此购买项目目前应当可以正常使用，无法再次领取
+    RestoredSuccessfully=请使用普通的“恢复购买”功能
 
 [Sharing]
     Share_Button=分享蓝图
@@ -833,6 +840,10 @@
     Ganymede{0}=木卫三（盖尼米德）
     Io{0}=木卫一（艾奥）
     Callisto{0}=木卫四（卡里斯托）
+    Thebe{0}=木卫十四（忒拜）
+    Thebe{1}=木卫十四（忒拜）
+    Thebe{2}=木卫十四（忒拜）
+    Thebe{3}=木卫十四（忒拜）
     Saturn{0}=土星
     Saturn{1}=土星
     Saturn{2}=土星
@@ -921,6 +932,14 @@
     Charon{1}=冥卫一（卡戎）
     Charon{2}=冥卫一（卡戎）
     Charon{3}=冥卫一（卡戎）
+    Nix{0}=冥卫二（尼克斯）
+    Nix{1}=冥卫二（尼克斯）
+    Nix{2}=冥卫二（尼克斯）
+    Nix{3}=冥卫二（尼克斯）
+    Hydra{0}=冥卫三（许德拉）
+    Hydra{1}=冥卫三（许德拉）
+    Hydra{2}=冥卫三（许德拉）
+    Hydra{3}=冥卫三（许德拉）
 
 [Landmarks]
     # 月球
@@ -1030,6 +1049,10 @@
 
     # 冥王星
     Sputnik_Planitia=斯普特尼克平原
+
+    Metztli_Crater=Metztli 撞击坑
+
+    Zethus_Crater=Zethus 撞击坑
 
 [Challenges]
     Liftoff_Title=升空
