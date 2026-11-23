@@ -1,6 +1,6 @@
 #
 # 译者：重铬酸钠
-# 汉化包版本：1.6.00.22-19(2026/07/29)
+# 汉化包版本：1.7.00.0-20(2026/11/23)
 #
 # 采用 MIT License 进行分发，参考副本如下：
 # 
@@ -34,6 +34,7 @@
 [General]
     Cancel=取消
     Close=关闭
+    Continue=继续
 
     On=开启
     Off=关闭
@@ -54,6 +55,7 @@
     Video_Orbit=入轨教程 <size=25><color=grey>[GFW]</color></size>
     Video_Moon=登月教程 <size=25><color=grey>[GFW]</color></size>
     Video_Dock=对接教程 <size=25><color=grey>[GFW]</color></size>
+    Video_Modding=模组制作教程 <size=25><color=grey>[GFW]</color></size>
 
     Development_Preview=开发预览
     Development_Preview_Explanation=开发预览展示了我们正在推进的未来更新内容
@@ -70,36 +72,36 @@
 
     Credits_OpenButton=制作信息
 
+    Credits_Text=<Size=55><color=grey> 首席开发者 </color></size>
+    Credits_Text=
     Credits_Text=<Size=70> Štefo Mai Morojna </size>
-    Credits_Text=<Size=55> 设计 - 程序 - 美术 </size>
+    Credits_Text=
+    Credits_Text=
+    Credits_Text=<Size=55><color=grey> 开发者 </color></size>
     Credits_Text=
     Credits_Text=<Size=70> Jordi van der Molen </size>
-    Credits_Text=<Size=55> 程序 </size>
-    Credits_Text=
     Credits_Text=<Size=70> Chris Christo </size>
-    Credits_Text=<Size=55> 程序 </size>
-    Credits_Text=
     Credits_Text=<Size=70> Josh </size>
-    Credits_Text=<Size=55> 程序 </size>
-    Credits_Text=
     Credits_Text=<Size=70> Aidan Ginise </size>
-    Credits_Text=<Size=55> 程序 </size>
-    Credits_Text=
     Credits_Text=<Size=70> Andrey Onischenko </size>
-    Credits_Text=<Size=55> 程序 </size>
-    Credits_Text=
     Credits_Text=<Size=70> Aris Semertzidis </size>
-    Credits_Text=<Size=55> 程序 </size>
+    Credits_Text=<Size=70> Krzysztof R. </size>
+    Credits_Text=
+    Credits_Text=
+    Credits_Text=<Size=55><color=grey> 美术 </color></size>
+    Credits_Text=
+    Credits_Text=<Size=70> Alice Demaret </size>
+    Credits_Text=<Size=70> Adrien Orlu </size>
+    Credits_Text=
+    Credits_Text=
+    Credits_Text=<Size=55><color=grey> 作曲 </color></size>
     Credits_Text=
     Credits_Text=<Size=70> Davi Vasc </size>
-    Credits_Text=<Size=55> 作曲 </size>
-    Credits_Text=
     Credits_Text=<Size=70> Ashton Mills </size>
-    Credits_Text=<size=55> 作曲 </size>
     Credits_Text=
     Credits_Text=
-    Credits_Text=
-    Credits_Text=<size=35>译者:</size><size=60>重铬酸钠</size>
+    Credits_Text=<Size=55><color=grey> 翻译 </color></size>
+    Credits_Text=<Size=70> 重铬酸钠 </size>
     Credits_Text=<size=35>汉化包发布页:sfs.nannoimi.cn</size>
     Credits_Text=<size=35>采用 MIT License 分发，转载、二改请注明原作者</size>
 
@@ -126,6 +128,9 @@
     Exit_Button=退出
     Close_Game=是否退出游戏？
     Follow_Development=关注开发动态
+
+    GameVersionCopied=已将版本复制到剪切板
+    LogsDumpCopied=已将 gzip 压缩的日志导出到剪切板
 
 [Worlds Menu]
     Create_New_World_Button=新建世界
@@ -155,12 +160,14 @@
     Allow_Quicksaves_Label=允许存档
 
     World_Difficulty_Name=难度:%value%
-    Difficulty_Easy=简单
     Difficulty_Normal=默认
     Difficulty_Hard=困难
-    Difficulty_Medium=中等
-    Difficulty_Extreme=极难
     Difficulty_Realistic=真实
+
+    Challenge_Difficulty_Easy=简单
+    Challenge_Difficulty_Medium=中等
+    Challenge_Difficulty_Hard=困难
+    Challenge_Difficulty_Extreme=极难
 
     World_SolarSystem_Name=星系:%value%
     
@@ -174,6 +181,11 @@
     Solar_System_Label=选择星系:
     Mode_Label=模式:
     Difficulty_Label=难度:
+
+    Difficulty_Scale_Stat=比例: 1:%scale%
+    Difficulty_Isp_Stat=Specific Impulse: %value%x
+    Difficulty_Dry_Mass_Stat=Tank Dry Mass: %value%x
+    Difficulty_Engine_Mass_Stat=Engine Mass: %value%x
 
 [Teleport Menu]
     Teleport_Cheat=传送选项
@@ -231,6 +243,7 @@
     Parts_Expansion=部件拓展包
     Expand_View_Button=展开预览
     Redstone_Atlas_Pack=红石、宇宙神拓展包
+    Rockets_Bundle=Rockets Bundle
     Skins_Expansion=皮肤拓展包
     Gas_Giants_Expansion=气态巨行星拓展包
     Ice_Giants_Expansion=冰巨星拓展包
@@ -275,6 +288,7 @@
 
     PartsExpansion_Tanks=各式各样的油箱！
     PartsExpansion_Engines=还有重型引擎！
+    PartsExpansion_VacuumEngines=High efficiency vacuum engines!
     PartsExpansion_Parts=以及各种形状、尺寸的部件！
 
     PartsExpansion_Build=给您带来更大的创作空间
@@ -316,8 +330,8 @@
     PurchaseNotConsumed=此购买项状态正常，无法找回
     PurchaseNotConsumed=请尝试使用常规的“恢复购买”选项
 
-    RestoredSuccessfully=此购买项目目前应当可以正常使用，无法再次领取
-    RestoredSuccessfully=请使用普通的“恢复购买”功能
+    RestoredSuccessfully=Restored purchases successfully:
+    RestoredSuccessfully=%products%
 
 [Sharing]
     Share_Button=分享蓝图
@@ -338,6 +352,44 @@
     URL_Invalid=无效的链接
     Sharing_Connect_Fail=无法连接分享服务器
 
+[Setting Titles PC]
+    General_Title=General Settings
+    Video_Title=Video Settings
+    Audio_Title=Audio Settings
+    Keybindings_Title=Keybindings
+
+[Settings PC]
+    Video_Resolution_Name=Resolution
+    Video_WindowMode_Name=Window mode
+    Fullscreen_Exclusive=Fullscreen
+    Fullscreen_Borderless=Borderless
+    Fullscreen_Windowed=Windowed
+    Fps_Unlimited=Unlimited
+    Video_VerticalSync_Name=Vertical Sync
+    Reset_To_Default=Reset To Default
+
+[Keybinding labels]
+    Key_SaveLoad=Save/Load
+    Key_Select_All=Select all
+    Key_CopyPaste=Copy/Paste
+    Key_Duplicate=Duplicate
+    Key_Delete=Delete
+    Key_Rotate_Part=Rotate part
+    Key_Flip_Part=Flip part
+    Key_Undo=Undo
+    Key_Redo=Redo
+    Key_Toggle_Ignition=Toggle ignition
+    Key_Throttle=Adjust throttle
+    Key_MinMax_Throttle=Min/Max throttle
+    Key_Turn_Rocket=Turn rocket
+    Key_Toggle_RCS=Toggle RCS
+    Key_Move_Using_RCS=Move using RCS
+    Key_Activate_Stage=Activate stage
+    Key_Toggle_Map=Toggle map
+    Key_Timewarp=Timewarp
+    Key_Switch_Rocket=Switch rocket
+    Key_Toggle_Console=Toggle console
+
 [Settings Mobile]
     Music_Name=背景音乐:
     Sound_Name=游戏音效:
@@ -348,6 +400,7 @@
     Menu_Opacity=不透明度:
     Shakes_Name=镜头抖动:
     Orbit_Line_Count=轨道线数量:
+    Engine_Smoke=Engine Smoke
     Anti_Aliasing=抗锯齿:
     Set_Save_Location=设置保存位置
     Change_Save_Location=更改保存位置
@@ -450,6 +503,9 @@
     Launch_Button=发射
     Move_Rocket_Button=整体移动
 
+    Gizmos_Snap_Smooth=Smooth
+    Gizmos_Snap_Angle=%value%°
+
     Clear_Warning=你确定要清除所有部件？
     Clear_Confirm=清除部件
     Auto_Detach_Capsule=自动分离指令舱
@@ -470,6 +526,12 @@
     Launch_Horizontally_Confirm=水平发射
     Launch_Vertically_Confirm=垂直发射
 
+    Custom_Colors=Custom colors
+    Edit_Color=Edit
+    Hex_Color=Hex color
+    Smoothness=Smoothness
+    Metallic=Metallic
+
     Example_Rockets_OpenMenu=示例火箭
     Basic_Rocket=基础火箭
     Stages=二级火箭
@@ -486,6 +548,7 @@
 [Game]
     Throttle_On=开启
     Throttle_Off=关闭
+    Throttle_Label=Throttle
     Ignition=点火
     RCS=RCS
     Rocket_Has_No_RCS=你的火箭没有安装 RCS
@@ -521,6 +584,11 @@
     Distance_Relative_Horizontal=相对距离:%distance%
     Angle_Horizontal=角度:%angle% / %targetAngle%
 
+    Height_Terrain_Short=Height (Terrain)
+    Height_Short=Height
+    Velocity_Short=Velocity
+    Velocity_Relative_Short=Velocity (Relative)
+
     Relative_Velocity_Arrow=相对速度:
     Relative_Velocity_Arrow=%velocity%
 
@@ -532,6 +600,9 @@
     Forward_Velocity_Arrow=
     Forward_Velocity_Arrow=速度
     Forward_Velocity_Arrow=%velocity%
+
+    Cannot_Ignite_Vacuum_Engines_Below=Cannot ignite vacuum engines below %height%
+    Cannot_Use_Vacuum_Engines_In_Atmosphere=Cannot use vacuum engines in the lower atmosphere
 
 [Failure menu]
     Failure_Cause=失败原因:
@@ -645,6 +716,11 @@
     Meter_Unit=米
     Km_Unit=千米
     Meter_Per_Second_Unit=米/秒
+    Mass_Title=Mass
+    Height_Title=Height
+    Thrust_Title=Thrust
+    Thrust_To_Weight_Ratio_Title=Thrust / Weight
+    Part_Count_Title=Parts
 
 [Timestamps]
     Second_Short=%value%秒
@@ -669,6 +745,7 @@
     Ten_Wide_Parts=超大（10格）
     Twelve_Wide_Parts=巨大（12格）
     Engine_Parts=引擎
+    Boosters_Parts=Boosters
     Aerodynamics_Parts=空气动力
     Fairings_Parts=整流罩
     Structural_Parts=结构
@@ -676,11 +753,12 @@
     Redstone_Atlas=红石-宇宙神
     Boosters=助推器
 
-# 待优化
+# -需要大修
 [Part Names]
     Capsule_Name=太空舱
     Probe_Name=探测器
     Parachute_Name=降落伞
+    Heat_Shield_Name=Heat Shield
 
     Kolibri_Engine_Name=蜂鸟发动机
     Hawk_Engine_Name=猎鹰发动机
@@ -698,11 +776,6 @@
     Side_Separator_Name=侧分离器
     Structural_Part_Name=结构件
     Landing_Leg_Name=着陆腿
-    Aerodynamic_Nose_Cone_Name=鼻锥
-    Aerodynamic_Fuselage_Name=机身
-    Fairing_Name=整流罩
-    Rover_Wheel_Name=探测车轮
-    Docking_Port_Name=对接口
     Solar_Panel_Name=太阳能板
     Battery_Name=电池
     RTG_Name=RTG
@@ -719,6 +792,7 @@
     Retro_Pack_Name=反推器
     LES_Name=逃逸塔
 
+# -需要大修
 [Part Descriptions]
     Capsule_Description=小型太空舱，可承载一名宇航员
     Probe_Description=无人探测器，常用于单程任务
@@ -763,9 +837,13 @@
     Engine_Module_State=发动机%state{0}%
     Engine_On_Label=启用发动机
     Gimbal_On_Label=启用万向节
+    Engine_Type=Type: %type%
+    Ground_Engine=Ground
+    Vacuum_Engine=Vacuum
+    Engine_Cover_Label=Engine cover
 
-    Booster_On=助推器:开启
-    Booster_Off=助推器:关闭
+    Booster_On=Booster ignition: On
+    Booster_Off=Booster ignition: Off
     Cannot_Ignite_Covered_Booster=无法点燃被遮挡的助推器
     Booster_Cannot_Be_Off=固体燃料助推器一旦点燃将无法关闭
 
@@ -794,7 +872,9 @@
 [Part Pick Categories]
     Part_Pick_Category_Aero=空气动力
     Part_Pick_Category_Parachutes=降落伞
-    Part_Pick_Category_Engines=引擎
+    Part_Pick_Category_Ground_Engines=First Stage Engines
+    Part_Pick_Category_Vacuum_Engines=Vacuum Engines
+    Part_Pick_Category_Lander_Engines=Lander Engines
     Part_Pick_Category_Structural=结构
     Part_Pick_Category_Utility=实用
     Part_Pick_Category_Control=控制器
@@ -811,6 +891,7 @@
 
     Part_Pick_Category_Staging=分离器
     Part_Pick_Category_Mounts=底座
+    Part_Pick_Category_Boosters=Boosters
 
 [Planets]
     Sun{0}=太阳
@@ -1110,7 +1191,7 @@
     PartAssetPack_Name=部件资源包
     TexturePack_Name=材质资源包
     SolarSystemPack_Name=星系资源包
-    CodeModNotAllowedOnMobile=不支持的模组:由于移动端对自定义代码执行的限制，暂不支持包含自定义代码的模组
+    Code_Mods_Not_Supported=NOT SUPPORTED: Because of custom code execution restrictions on mobile, mods with custom code are not supported
     Author_Label=作者:%name%
     Changes_Warning=是否立即重启游戏以使模组修改生效？
     Relaunch=重启
@@ -1129,6 +1210,39 @@
     Set_ModsFolder_Confirm_Copy=复制到:
     Set_ModsFolder_Confirm_Copy=%newPath%
     Set_ModsFolder_Confirm_Copy=这会覆盖新存储位置的所有数据！具备破坏性
+
+    Pack_Loading_Progress=Pack loading in progress... (%loaded%/%total%)
+    PackDeserialize_Error=ERROR: Invalid or corrupted pack file
+    Unsupported_Mod_Platform=ERROR: Pack doesn't support current platform. Ask the pack creator to export with the latest modding toolkit version
+    CustomScriptsLoading_Error=ERROR: Failed to load custom scripts for pack
+    Custom_Scripts_Unsupported=ERROR: This pack has custom code, mobile does not support custom code execution
+    Full_Bundle_Needed=Full Bundle ownership is required to use mods
+    PackLoadFail_Report=Failed to load asset pack: %name%
+    TextureLoadFail_Report=Failed to load %name% texture in %pack% pack.
+    Info_And_Description_Load_Failed=Failed to load info and description
+    No_Info_And_Description=No info and description
+    JsonOrLegacyConversion_Error=ERROR: json format or legacy conversion %name%
+    JsonFormat_Error=ERROR: json format %name%
+    TerrainFormula_Error=Error: terrain formula: %name%
+    TextureFormula_Error=Error: texture formula: %name%
+    Non_Existent_Solar_System=Solar system %name% does not exist
+    No_Solar_System_File=Solar system %name% does not have %file% file
+    No_Solar_System_Folder=Solar system %name% does not have %folder% folder
+    Import_Settings_Load_Failed=Failed to load import settings file
+    Loading_Texture_Failed=ERROR: loading texture failed: %name%
+    Texture_Format_Invalid=ERROR: texture format invalid: %name%
+    Texture_Search_Failed=ERROR: cant find texture: %name%
+    Loading_Heightmap_Failed=ERROR: loading heightmap failed: %name%
+    Heightmap_Format_Invalid=ERROR: heightmap format invalid: %name%
+    Heightmap_Search_Failed=ERROR: Cant find heightmap: %name%
+    Loading_Planet_Failed=ERROR: loading planet failed: %name%
+    Planet_Format_Invalid=ERROR: planet format invalid: %name%
+    Planet_Name_Conflict=ERROR: Already has a planet named: %name%
+    Planet_Creation_Failed=ERROR: creating planet from loaded data: %name%
+    ParentOrSatelliteSearch_Failed=ERROR: finding parent/satellite: %name%
+    Satellite_Index_Failed=ERROR: finding satellite index/depth of %name%
+    Planet_Pack_Purchase_Needed=Planet pack purchase is required to load custom solar systems
+    Planets_Converted=Found %count% legacy planet files and converted them automatically
 
 [Notifications]
     Notify_For_New_Releases=当有新版本发布时，是否接收通知？
